@@ -1,0 +1,49 @@
+#define colorsensor SENSOR_2
+#define colorsensor2 SENSOR_3
+task main()
+{
+    int range=0;
+    int P = 120;
+    int midpoint =334;
+    int ws_midpoint = 0;
+    int range2 = 200;
+
+    int fsize = 512;
+    byte handle;
+    string read;
+    OpenFileRead("Calibration.txt" , fsize, handle);
+    ReadLnString(handle, read);
+    int white = StrToNum(read);
+    ReadLnString(handle, read);
+    int black = StrToNum(read);
+    ReadLnString(handle, read);
+    int silver = StrToNum(read);
+    CloseFile(handle);
+    black= (white+black)/2;
+     while(true)
+     {
+        SetSensorLight(IN_1);
+        SetSensorColorRed(IN_1 );
+        SetSensorMode( IN_1, SENSOR_MODE_RAW);
+        Wait(300);
+        NumOut(0,0,(Sensor(IN_1)));
+        if((Sensor(IN_1))>black)
+        {
+           OnFwd(OUT_A,75);
+           Wait(350);
+           Off(OUT_AB);
+           Wait(50);
+
+        }
+        else if((Sensor(IN_1))<black)
+        {
+                OnFwd(OUT_B,75);
+                Wait(350);
+                Off(OUT_AB);
+                Wait(50);
+        }
+
+     }
+}
+     
+     

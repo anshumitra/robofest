@@ -1,0 +1,149 @@
+#define NEAR 5
+task main ()
+{
+    // Set up sensors
+    SetSensorLowspeed(IN_4);
+    SetSensorLight(IN_1);
+    SetSensorColorRed(IN_1);
+    //LIGHT_ACTIVE is the default type
+    SetSensorMode(IN_1, SENSOR_MODE_RAW);
+    // Raw gives better precision than percent
+
+    //Constants
+    //white=525
+    //silver=538
+    //black= 170
+
+    int error = 0;
+    int power=65;
+    int leftpower = 0;
+    int rightpower =0;
+    int range=0;
+    int P = 120;
+    int midpoint =334;
+    int ws_midpoint = 0;
+    int range2 = 200;
+    int i;//changed int i=0 to int i
+    int x;
+    int y;
+
+    int fsize = 512;
+    byte handle;
+    string read;
+
+    OpenFileRead("Calibration.txt" , fsize, handle);
+    ReadLnString(handle, read);
+    int white = StrToNum(read);
+    ReadLnString(handle, read);
+    int black = StrToNum(read);
+    ReadLnString(handle, read);
+    int silver = StrToNum(read);
+    CloseFile(handle);
+
+    range = white - black;     // 328
+    midpoint = (white + black) / 2;  //334
+    ws_midpoint = (white + silver) / 2; //518
+    i = 0;
+
+    while(true)
+    {
+	if(Sensor(IN_1) < silver)
+	    // Follow the line until you reach the midpoint between white and silver
+	{
+	    // Depending on the lighting, the robot may never see the full silver value
+	    leftpower = power;
+	    rightpower = power;
+	    error = Sensor(IN_1) - midpoint;
+	    // We are trying to stay halfway between black and white
+	    if (error >= 0) rightpower = power - (power * abs(error) / range * P);
+	    // This assumes the robot is going to follow the left side of the black triangle
+	    if (error < 0) leftpower = power - (power * abs(error) / range * P);
+	    // Cutting the power (and using negative power) makes sure the robot will follow the line
+	    OnFwd(OUT_C, leftpower);
+	    OnFwd(OUT_B, rightpower);
+	}
+	else if(Sensor(IN_1) > range2)
+	{
+	    //int   y=MotorRotationCount(OUT_B);
+	    //int x = y/360;
+	    //int l=x*((22*4.5)/7);
+	    //NumOut(0,LCD_LINE3,l);
+	    // OnRev(OUT_BC,100);
+	    //Wait(500);
+	    //Off(OUT_BC);
+	    // Wait(10);
+	    /*if(i<=2) { i++; }   //closed condition here in case it helps
+	    //i++ ; //added i++ here removing counter inceasing if condition  */
+	    i++;
+	    if (i==1)
+	    {
+
+		ResetRotationCount(OUT_B);
+		Wait(1);
+		Off(OUT_B);
+		OnFwd(OUT_C,70);
+		until (Sensor(IN_1) <= black);
+		Wait(260);
+
+		leftpower = power;
+		rightpower = power;
+		error = Sensor(IN_1) - midpoint;
+		// We are trying to stay halfway between black and white
+		if (error >= 0) rightpower = power - (power * abs(error) / range * P);
+		// This assumes the robot is going to follow the left side of the black triangle
+		if (error < 0) leftpower = power - (power * abs(error) / range * P);
+		// Cutting the power (and using negative power) makes sure the robot will follow the line
+		OnFwd(OUT_C, leftpower);
+		OnFwd(OUT_B, rightpower);
+		Off(OUT_BC);
+		Wait(1000);
+	    }
+	    else if (i==2)//changed if to else if
+	    {
+		//Off(OUT_BC);
+		//Wait(5000);
+		x=MotorRotationCount(OUT_B);
+		Wait(1);
+		ResetRotationCount(OUT_B);
+		Wait(1);
+		Off(OUT_B);
+		OnFwd(OUT_C,70);
+		until (Sensor(IN_1) <= black);
+		Wait(260);
+
+		leftpower = power;
+		rightpower = power;
+		error = Sensor(IN_1) - midpoint;
+		// We are trying to stay halfway between black and white
+		if (error >= 0) rightpower = power - (power * abs(error) / range * P);
+		// This assumes the robot is going to follow the left side of the black triangle
+		if (error < 0) leftpower = power - (power * abs(error) / range * P);
+		// Cutting the power (and using negative power) makes sure the robot will follow the line
+		OnFwd(OUT_C, leftpower);
+		OnFwd(OUT_B, rightpower);
+	    }
+	    else if (i > 2 ) //changed if to else if
+	    {
+    Off(OUT_BC);
+    Wait(1000);
+    y=MotorRotationCount(OUT_B);
+		Wait(1);
+		int rot1=(x/360)*10;
+		int l1=rot1*6*3.14;
+		int rot2=(y/360)*10;
+		int l2=rot2*6*3.14;
+		NumOut(0,LCD_LINE2,l1);
+		NumOut(0,LCD_LINE4,l2);
+		Wait(5000);
+		break;
+	    }
+	    /*if(i<=2)
+	      {
+	      i++;
+	      }   //closed condition here in case it helps  */
+
+
+	}  //end of for loop
+    }//end of while loop
+}
+

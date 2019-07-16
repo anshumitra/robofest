@@ -1,0 +1,292 @@
+#define colorsensor SENSOR_2
+#define colorsensor2 SENSOR_3
+#define error_hyp 0.91
+#define error_base 1
+#define circum 18.84
+#define degrees 10/360
+
+float correctErrHyp(float l) {
+	return l*error_hyp;
+}
+float correctErrBase(float l) {
+	return l*error_base;
+}
+
+float computeArea1(float l1, float l2) {
+	float e, d, a, h;
+	d=(l2*l2);
+	e=(l1*l1);
+	h=(d-e)/(2*(l2));
+	a=(l1*h)/2;
+	return a;
+}
+float computeArea2(float l1, float l2) {
+	float e, d, a, h;
+	d=(l2*l2);
+	e=(l1*l1);
+	h=(e-d)/(2*(l1));
+	a=(l2*h)/2;
+	return a;
+}
+
+int computePower(int p, int e, float r) {
+	return p - (p * abs(e) * r);
+}
+
+task main() {
+  OnFwd(OUT_A,75);
+  Wait(500);
+  Off(OUT_A);
+  Wait(10);
+  SetSensorColorFull(IN_2);
+  SetSensorColorFull(IN_3);
+	OnFwd(OUT_C,70);
+	while(true){
+		if(colorsensor2==1){             //starting turning part
+			Off(OUT_C);
+			OnFwd(OUT_B,70);
+			if(colorsensor==1){
+				Off(OUT_B);
+			}
+			if(colorsensor==1){
+				OnFwd(OUT_C,70);
+				if(colorsensor2==1){
+					Off(OUT_C);
+				}
+			}
+		}
+		if(colorsensor==1 && colorsensor2==1){
+			break;
+		}
+	}
+	OnRev(OUT_BC,100);
+	Wait(750);
+	Off(OUT_BC);
+	Wait(500);
+  RotateMotor(OUT_C,100,-534);
+	Off(OUT_BC);
+	SetSensorLowspeed(IN_4);
+	while(true){
+		OnFwd(OUT_BC,100);
+		if(SensorUS(IN_4)<10){                  //arm
+			OnFwd(OUT_A,100);
+			Off(OUT_BC);
+			Wait(100);
+			break;
+		}
+	}
+	while(true){
+		OnFwd(OUT_BC,45);
+		if(colorsensor==1 && colorsensor2==1){            //sensing triangle
+      Wait(100);
+      OnRev(OUT_A,100);
+      break;
+		}
+	}
+	Wait(100);
+	OnFwd(OUT_BC,75);
+  while(true){
+		if(colorsensor==6 && colorsensor2==6){
+      Off(OUT_BC);
+			break;
+		}
+	}
+  		OnRev(OUT_A,100);                              //going till the edge of table to throw boxes
+		OnFwd(OUT_BC,75);
+  while(true){
+		if(colorsensor==1){
+      Off(OUT_BC);
+      Wait(1000);
+			break;
+		}
+		if(colorsensor2==1){
+      Off(OUT_BC);
+      Wait(1000);
+			break;
+		}
+	}
+	OnRev(OUT_BC,100);
+	Wait(500);
+	OnFwd(OUT_BC,70);
+    while(true){
+    if(colorsensor==1){
+			Off(OUT_BC);
+			Wait(500);
+			break;
+		}
+		if(colorsensor2==1){
+			Off(OUT_BC);
+			Wait(500);
+			break;
+		}
+	}
+  OnRev(OUT_BC,100);
+  Wait(750);
+  		OnRev(OUT_BC,60);
+  while(true){
+		if(colorsensor==1){
+			Off(OUT_BC);
+      break;                                   //go back till black triangle
+		}
+	}
+	OnFwd(OUT_C,60);
+	Wait(500);                       //first line follower
+	SetSensorColorNone(IN_2);
+	SetSensorColorNone(IN_3);
+	Wait(250);
+
+	SetSensorLight(IN_2);
+	SetSensorColorRed(IN_2);
+	SetSensorMode(IN_2, SENSOR_MODE_RAW);
+	// Raw gives better precision than percent
+	//white=525
+	//silver=538
+	//black= 170
+	int error = 0;
+	int power=65;
+	int leftpower = 0;
+	int rightpower =0;
+	int range=0;
+	int P = 120;
+	int midpoint =334;
+	int ws_midpoint = 0;
+	int range2 = 200;
+	int i;//changed int i=0 to int i
+	float x;
+	float y;
+	float a;
+	int fsize = 512;
+	byte handle;
+	string read;
+	OpenFileRead("Calibration.txt" , fsize, handle);
+	ReadLnString(handle, read);
+	int white = StrToNum(read);
+	ReadLnString(handle, read);
+	int black = StrToNum(read);
+	ReadLnString(handle, read);
+	int silver = StrToNum(read);
+	CloseFile(handle);
+
+	range = white - black;     // 328
+	float inv_range = P;
+	inv_range = inv_range / range;
+	midpoint = (white + black) / 2;  //334
+	ws_midpoint = (white + silver) / 2; //518
+	i = 0;
+	while(true){
+		if(Sensor(IN_2) < silver){
+			// Follow the line until you reach the midpoint between white and silver
+			// Depending on the lighting, the robot may never see the full silver value
+			leftpower = power;
+			rightpower = power;
+			error = Sensor(IN_2) - midpoint;    //changed to sensor 2
+			// We are trying to stay halfway between black and white
+			if (error >= 0) rightpower = computePower(power, error, inv_range);
+			// This assumes the robot is going to follow the left side of the black triangle
+			if (error < 0) leftpower = computePower(power, error, inv_range);
+			// Cutting the power (and using negative power) makes sure the robot will follow the line
+			OnFwd(OUT_C, leftpower);
+			OnFwd(OUT_B, rightpower);
+		}
+		else if(Sensor(IN_2) > range2){
+			i++;
+			if (i==1){
+				ResetRotationCount(OUT_B);
+				Wait(1);
+				Off(OUT_B);
+				OnFwd(OUT_C,70);
+				until (Sensor(IN_2) <= black);
+				Wait(260);
+
+				leftpower = power;
+				rightpower = power;
+				error = Sensor(IN_2) - midpoint;
+				if (error >= 0) rightpower = computePower(power, error, inv_range);
+				if (error < 0) leftpower = computePower(power, error, inv_range);
+				OnFwd(OUT_C, leftpower);
+				OnFwd(OUT_B, rightpower);
+			}
+			else if (i==2){
+				x=MotorRotationCount(OUT_B);
+				Wait(1);
+				ResetRotationCount(OUT_B);
+				Wait(1);
+				Off(OUT_B);
+				OnFwd(OUT_C,70);
+				until (Sensor(IN_2) <= black);
+				Wait(260);
+
+				leftpower = power;
+				rightpower = power;
+				error = Sensor(IN_2) - midpoint;
+				if (error >= 0) rightpower = computePower(power, error, inv_range);
+				if (error < 0) leftpower = computePower(power, error, inv_range);
+				OnFwd(OUT_C, leftpower);
+				OnFwd(OUT_B, rightpower);
+			}
+			else if (i == 3 ){
+				y=MotorRotationCount(OUT_B);
+				Wait(1);
+				Off(OUT_BC);
+				Wait(100);
+				break;
+			}
+		}
+	}
+	SetSensorColorFull(IN_2);
+	SetSensorColorFull(IN_3);
+  OnFwd(OUT_C,75);     // In case of left side 90 triangle, OnFwd(OUT_B,100)
+  Wait(500);           // In case of left side 90 triangle, Wait(1500)
+  OnFwd(OUT_BC,60);
+	while(true){
+		if(colorsensor==1){                    // go front till edge
+			Off(OUT_B);
+		}
+				if(colorsensor2==1){                    // go front till edge
+			Off(OUT_C);
+		}
+		if(colorsensor2==1 && colorsensor==1)   {
+		break;
+		}
+	}
+	OnRev(OUT_B,90);
+	OnFwd(OUT_C,10);
+	while(true){
+		if(colorsensor2==6){
+			Off(OUT_BC);
+			break;
+		}
+	}
+	SetSensorLight(IN_3);                //second line follower(edge)
+	SetSensorColorRed(IN_3);
+	SetSensorMode(IN_3, SENSOR_MODE_RAW);
+	while(Sensor(IN_3) < ws_midpoint){
+		leftpower = power;
+		rightpower = power;
+		error = Sensor(IN_3) - midpoint;
+		if (error < 0) leftpower = computePower(power, error, inv_range);
+		if (error >= 0) rightpower = computePower(power, error, inv_range);
+		OnFwd(OUT_C, rightpower);
+		OnFwd(OUT_B, leftpower);
+	}
+	Off(OUT_BC);
+	float rot1=x*degrees;
+	float l1=rot1*circum;
+	float rot2=y*degrees;
+	float l2=rot2*circum;
+	if(l1<l2){
+		l1=correctErrBase(l1);
+		l2=correctErrHyp(l2);
+		a = computeArea1(l1, l2);
+	}
+	else{
+		l1=correctErrHyp(l1);
+		l2=correctErrBase(l2);
+		a = computeArea2(l1, l2);
+	}
+	NumOut(0,LCD_LINE2,l1);
+	NumOut(0,LCD_LINE4,l2);
+	NumOut(0,LCD_LINE6,a);
+  Wait(20000);
+}
+

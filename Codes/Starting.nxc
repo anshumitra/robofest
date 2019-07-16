@@ -1,0 +1,55 @@
+task main(){
+SetSensorLight(IN_2);
+    SetSensorColorRed(IN_2);
+    //LIGHT_ACTIVE is the default type
+    SetSensorMode(IN_2, SENSOR_MODE_RAW);
+    // Raw gives better precision than percent
+ int power = 65;                                                                // Power to be applied to the motors
+ int P = 120;                                                                   // Proportional multiplier for line follower correction
+ int wheeldiameter = 56;                                                        // Diameter of the wheels in mm, must be adjusted if wheels are changed
+
+ //Variables whose values are calculated in the program
+ int range = 0;
+ int midpoint = 0;
+ int error = 0;
+ int leftpower = 0;
+ int rightpower = 0;
+ int ws_midpoint = 0;
+ int degrees = 0;
+ int distance = 0;
+ int range2 = 200;
+ int rotations = 0;
+
+ // Read the Calibration Data
+ int fsize = 512;
+ byte handle;
+ string read;
+
+  OpenFileRead("Calibration.txt" , fsize, handle);
+ ReadLnString(handle, read);
+ int white = StrToNum(read);
+ ReadLnString(handle, read);
+ int black = StrToNum(read);
+ ReadLnString(handle, read);
+ int silver = StrToNum(read);
+ CloseFile(handle);
+range = white - black;     // 328
+ midpoint = (white + black) / 2;  //334
+ ws_midpoint = (white + silver) / 2; //518
+
+ while(Sensor(IN_2) < ws_midpoint)                                              // Follow the line until you reach the midpoint between white and silver
+ {                                                                              // Depending on the lighting, the robot may never see the full silver value
+  leftpower = power;
+  rightpower = power;
+  error = Sensor(IN_2) - midpoint;                                                 // We are trying to stay halfway between black and white
+  if (error < 0) leftpower = power - (power * abs(error) / range * P);            // This assumes the robot is going to follow the left side of the black triangle
+  if (error >= 0) rightpower = power - (power * abs(error) / range * P);          // Cutting the power (and using negative power) makes sure the robot will follow the line
+  OnFwd(OUT_C, leftpower);
+  OnFwd(OUT_B, rightpower);
+ }
+ SetSensorLowspeed(IN_1);
+ if(SensorUS(IN_1)<60){   // 60 is random
+ Off(OUT_BC);
+ }
+ }
+

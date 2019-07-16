@@ -1,0 +1,62 @@
+//This program is used to calibrate the light sensor to light values white, black, and silver.
+
+task main()
+{
+// Set up sensors //YOU HAVE TO DO THIS INSIDE A TASK
+ SetSensorLight(IN_1);
+  SetSensorColorRed(IN_1); //LIGHT_ACTIVE is the default type
+ SetSensorMode(IN_1, SENSOR_MODE_RAW); // Raw gives better precision than percent
+
+int white = 0;
+int black = 0;
+int silver = 0;
+int fsize = 512;
+byte handle;
+int bytesWritten;
+string write;
+
+//Light sensor calibration
+
+  //Put light sensor 1 on white
+  do                                         // Waits for the orange button to be pressed
+  {
+    white = Sensor(IN_1);
+    NumOut(0, LCD_LINE4, white);                    // Displays the constantly changing light sensor value
+  }until (ButtonPressed(BTNCENTER, true));                                                 // Make sure the kind of number displayed matches the way it is defined
+  TextOut(0, LCD_LINE1, "White = " );                   // Keep displaying the value for white
+  NumOut(47, LCD_LINE1, white);
+  Wait(1000);                                  // Necessary to give you time to take your finger off the button
+
+  //Put light sensor 1 on black
+  do
+  {
+    black = Sensor(IN_1);
+    NumOut(0, LCD_LINE4, black);
+  }until (ButtonPressed(BTNCENTER, true));
+  TextOut(0, LCD_LINE2, "Black = " );
+  NumOut(47, LCD_LINE2, black);
+  Wait(1000);
+  //Put light sensor 1 on silver
+  do
+  {
+    silver = Sensor(IN_1);
+    NumOut(0, LCD_LINE4, silver);
+  } until (ButtonPressed(BTNCENTER, true));
+  TextOut(0, LCD_LINE3, "Silver = " );
+  NumOut(50, LCD_LINE3, silver);
+  Wait(1000);
+
+  //Write the calibration data to a file so it can be used by other files
+  
+  DeleteFile("Calibration.txt");
+  CreateFile("Calibration.txt", fsize, handle);
+  write = NumToStr(white);
+  WriteLnString(handle, write, bytesWritten);
+  write = NumToStr(black);
+  WriteLnString(handle, write, bytesWritten);
+  write = NumToStr(silver);
+  WriteLnString(handle, write, bytesWritten);
+  CloseFile(handle);
+  
+  
+  }

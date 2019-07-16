@@ -1,0 +1,580 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0SetSensorLight_inline_main	5	1	0	4	2
+1	__FOMutex	9	0	4	4	2
+2	__D0SetSensorLight_inline_main	6	1	8	4	3
+3	__D0main	6	1	12	4	36
+4	__signed_stack_002main	6	1	16	4	18
+5	__signed_stack_001main	6	1	20	4	24
+6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	6
+7	__main_7qG2_bytesWritten_7qG2_000	4	1	28	2	3
+8	__main_7qG2_black_7qG2_000	4	1	30	2	5
+9	__constVal128	4	0	32	2	1
+10	__main_7qG2_fsize_7qG2_000	4	1	34	2	2
+11	__main_7qG2_silver_7qG2_000	4	1	36	2	5
+12	__main_7qG2_white_7qG2_000	4	1	38	2	5
+13	____initialize_global_data_return	1	1	40	1	3
+14	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	41	1	4
+15	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	42	1	2
+16	__SetSensorMode_7qG2_port_7qG2_000_inline_main	1	1	43	1	2
+17	__SetSensorColorRed_7qG2_port_7qG2_000_inline_main	1	1	44	1	4
+18	__main_7qG2_handle_7qG2_000	1	1	45	1	5
+19	__SetSensorMode_7qG2_mode_7qG2_000_inline_main	1	1	46	1	2
+20	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	47	1	2
+21	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	48	1	2
+22	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	49	1	2
+23	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	50	1	2
+24	__ResetSensorPort	1	1	51	1	4
+25	__PFTmp	1	1	52	1	1
+26	____ResetSensorSubroutine_return	1	1	53	1	4
+27	__ResetSensorTmp	1	1	54	1	2
+28	__constVal14	2	0	55	1	1
+29	__constVal1	2	0	56	1	2
+30	__zfSetSensorLight_inline_main	1	1	57	1	2
+31	__zfmain	1	1	58	1	6
+32	__constVal0	2	1	59	1	3
+33	__RBtnArgs	8	0	5	8	15
+34	__RBtnArgs.Result	2	1	60	1	15
+35	__RBtnArgs.Index	1	1	61	1	15
+36	__RBtnArgs.Pressed	1	1	62	1	15
+37	__RBtnArgs.Count	1	1	63	1	15
+38	__RBtnArgs.Reset	1	1	64	1	15
+39	__TextOutArgs	8	0	4	16	45
+40	__TextOutArgs.Result	2	1	68	1	45
+41	__TextOutArgs.Location	8	0	2	4	45
+42	__TextOutArgs.Location.X	4	1	72	2	45
+43	__TextOutArgs.Location.Y	4	1	74	2	45
+44	__TextOutArgs.Text	7	0	76	4	45
+45	__TextOutArgs.Text.Text_type	1	0	0	1	0
+46	__TextOutArgs.Options	5	1	80	4	45
+47	__FOArgs	8	0	4	12	5
+48	__FOArgs.Result	3	1	84	2	5
+49	__FOArgs.FileHandle	1	1	86	1	5
+50	__FOArgs.Filename	7	0	88	4	5
+51	__FOArgs.Filename.Filename_type	1	0	0	1	0
+52	__FOArgs.Length	5	1	92	4	5
+53	__FWriteArgs	8	0	4	12	21
+54	__FWriteArgs.Result	3	1	96	2	21
+55	__FWriteArgs.FileHandle	1	1	98	1	21
+56	__FWriteArgs.Buffer	7	0	100	4	21
+57	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+58	__FWriteArgs.Length	5	1	104	4	21
+59	__FDArgs	8	0	2	8	3
+60	__FDArgs.Result	3	1	108	2	3
+61	__FDArgs.Filename	7	0	110	4	3
+62	__FDArgs.Filename.Filename_type	1	0	0	1	0
+63	__FCArgs	8	0	2	4	3
+64	__FCArgs.Result	3	1	112	2	3
+65	__FCArgs.FileHandle	1	1	114	1	3
+66	__constStr0010	7	0	116	4	1
+67	__constStr0010.__constStr0010_type	1	1	0	1	0
+68	__strretvalmain	7	0	118	4	6
+69	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+70	__constStr0012	7	0	120	4	2
+71	__constStr0012.__constStr0012_type	1	1	0	1	0
+72	__constStr0011	7	0	122	4	1
+73	__constStr0011.__constStr0011_type	1	1	0	1	0
+74	__constStr0009	7	0	124	4	1
+75	__constStr0009.__constStr0009_type	1	1	0	1	0
+76	__FWriteLn	7	0	126	4	3
+77	__FWriteLn.__FWriteLn_type	1	0	0	1	0
+78	__FWriteFlattenBuf	7	0	128	4	6
+79	__FWriteFlattenBuf.__FWriteFlattenBuf_type	1	0	0	1	0
+80	__main_7qG2_write_7qG2_000	7	0	130	4	6
+81	__main_7qG2_write_7qG2_000.__main_7qG2_write_7qG2_000_type	1	0	0	1	0
+82	__strbufmain	7	0	132	4	12
+83	__strbufmain.__strbufmain_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	5	0	#line 5 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	6	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	5	2	#line 5 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	5	2	#line 5 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	6	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	5	5	#line 5 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	6	5	#line 6 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	7	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	7	#line 3729 "NXCDefs.h"
+0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3730	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	11	#line 3729 "NXCDefs.h"
+0	3730	11		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	14	#line 3729 "NXCDefs.h"
+0	3730	14		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		set __D0SetSensorLight_inline_main, 5
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		jmp __001__NXC_Label_5
+0	3729	22	#line 3729 "NXCDefs.h"
+0	3730	22		set __D0SetSensorLight_inline_main, 6
+0	3729	25	#line 3729 "NXCDefs.h"
+0	3730	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3731	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3731	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3739	44	#line 3739 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3732	44	#line 3732 "NXCDefs.h"
+0	6	44	#line 6 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	6	44	#line 6 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	7	44		set __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 0
+0	6	47	#line 6 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	3812	47	#line 3812 "NXCDefs.h"
+0	3813	47	#pragma macro 6
+0	3813	47		setin __constVal14, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 0
+0	3813	51		setin __constVal128, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 1
+0	3813	55		mov __ResetSensorPort, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main
+0	3813	57		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3754	59	#line 3754 "NXCDefs.h"
+0	3812	59	#line 3812 "NXCDefs.h"
+0	7	59	#line 7 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	7	59	#line 7 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	8	59		set __SetSensorMode_7qG2_port_7qG2_000_inline_main, 0
+0	7	62	#line 7 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	7	62	#line 7 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	8	62		set __SetSensorMode_7qG2_mode_7qG2_000_inline_main, 0
+0	7	65	#line 7 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	3676	65	#line 3676 "NXCDefs.h"
+0	3677	65		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	3676	69	#line 3676 "NXCDefs.h"
+0	9	69	#line 9 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	10	69	#line 10 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	11	69		set __main_7qG2_white_7qG2_000, 0
+0	10	72	#line 10 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	11	72	#line 11 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	12	72		set __main_7qG2_black_7qG2_000, 0
+0	11	75	#line 11 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	12	75	#line 12 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	13	75		set __main_7qG2_silver_7qG2_000, 0
+0	12	78	#line 12 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	13	78	#line 13 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	14	78		set __main_7qG2_fsize_7qG2_000, 512
+0	13	81	#line 13 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	22	81	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	23	81		getin __main_7qG2_white_7qG2_000, __constVal0, 4
+0	22	85	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	22	85	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	22	85	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	23	85	#line 23 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	85		set __signed_stack_001main, 0
+0	23	88	#line 23 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	23	88	#line 23 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	88		set __signed_stack_002main, 32
+0	23	91	#line 23 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	23	91	#line 23 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	91		mov __D0main, __main_7qG2_white_7qG2_000
+0	24	93	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	93	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	93		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	24	95	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	95		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	24	97	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	97		set __TextOutArgs.Options, 0
+0	24	100	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	100		numtostr __TextOutArgs.Text, __D0main
+0	24	103	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	103		syscall 13, __TextOutArgs
+0	24	106	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	106	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	106	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	106	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	106		set __signed_stack_001main, 3
+0	24	109	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	109	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	109		set __D0main, 1
+0	24	112	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	112	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	112		mov __RBtnArgs.Index, __signed_stack_001main
+0	24	114	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	114		mov __RBtnArgs.Reset, __D0main
+0	24	116	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	116		syscall 20, __RBtnArgs
+0	24	119	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	119	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	24	119	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	119		not __D0main, __RBtnArgs.Pressed
+0	25	122	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	122		tst 5, __zfmain, __D0main
+0	25	125	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	125		brtst 4, __NXC_Label_506, __zfmain
+0	25	128	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	128		jmp __NXC_Label_505
+0	25	130	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	130	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	130	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	130		set __signed_stack_001main, 0
+0	25	133	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	133	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	133		set __signed_stack_002main, 56
+0	25	136	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	25	136	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	136		strcat __strbufmain, __constStr0009
+0	26	140	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	140	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	140		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	26	142	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	142		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	26	144	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	144		set __TextOutArgs.Options, 0
+0	26	147	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	147		mov __TextOutArgs.Text, __strbufmain
+0	26	149	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	149		syscall 13, __TextOutArgs
+0	26	152	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	152	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	152	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	152	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	152		set __signed_stack_001main, 47
+0	26	155	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	155	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	155		set __signed_stack_002main, 56
+0	26	158	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	26	158	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	158		mov __D0main, __main_7qG2_white_7qG2_000
+0	27	160	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	160	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	28	160		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	27	162	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	28	162		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	27	164	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	28	164		set __TextOutArgs.Options, 0
+0	27	167	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	28	167		numtostr __TextOutArgs.Text, __D0main
+0	27	170	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	28	170		syscall 13, __TextOutArgs
+0	27	173	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	173	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	173	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	27	173	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	28	173		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	27	176	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	7921	176	#line 7921 "NXCDefs.h"
+0	7922	176		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	179	#line 7921 "NXCDefs.h"
+0	30	179	#line 30 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	32	179	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	33	179		getin __main_7qG2_black_7qG2_000, __constVal0, 4
+0	32	183	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	32	183	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	32	183	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	33	183	#line 33 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	183		set __signed_stack_001main, 0
+0	33	186	#line 33 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	33	186	#line 33 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	186		set __signed_stack_002main, 32
+0	33	189	#line 33 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	33	189	#line 33 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	189		mov __D0main, __main_7qG2_black_7qG2_000
+0	34	191	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	191	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	191		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	34	193	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	193		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	34	195	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	195		set __TextOutArgs.Options, 0
+0	34	198	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	198		numtostr __TextOutArgs.Text, __D0main
+0	34	201	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	201		syscall 13, __TextOutArgs
+0	34	204	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	204	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	204	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	204	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	204		set __signed_stack_001main, 3
+0	34	207	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	207	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	207		set __D0main, 1
+0	34	210	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	210	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	210		mov __RBtnArgs.Index, __signed_stack_001main
+0	34	212	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	212		mov __RBtnArgs.Reset, __D0main
+0	34	214	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	214		syscall 20, __RBtnArgs
+0	34	217	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	217	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	34	217	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	217		not __D0main, __RBtnArgs.Pressed
+0	35	220	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	220		tst 5, __zfmain, __D0main
+0	35	223	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	223		brtst 4, __NXC_Label_536, __zfmain
+0	35	226	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	226		jmp __NXC_Label_535
+0	35	228	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	228	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	228	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	228		set __signed_stack_001main, 0
+0	35	231	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	231	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	231		set __signed_stack_002main, 48
+0	35	234	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	35	234	#line 35 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	234		strcat __strbufmain, __constStr0010
+0	36	238	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	238	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	238		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	36	240	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	240		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	36	242	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	242		set __TextOutArgs.Options, 0
+0	36	245	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	245		mov __TextOutArgs.Text, __strbufmain
+0	36	247	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	247		syscall 13, __TextOutArgs
+0	36	250	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	250	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	250	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	250	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	250		set __signed_stack_001main, 47
+0	36	253	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	253	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	253		set __signed_stack_002main, 48
+0	36	256	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	36	256	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	256		mov __D0main, __main_7qG2_black_7qG2_000
+0	37	258	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	258	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	38	258		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	37	260	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	38	260		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	37	262	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	38	262		set __TextOutArgs.Options, 0
+0	37	265	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	38	265		numtostr __TextOutArgs.Text, __D0main
+0	37	268	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	38	268		syscall 13, __TextOutArgs
+0	37	271	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	271	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	271	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	37	271	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	38	271		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	37	274	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	7921	274	#line 7921 "NXCDefs.h"
+0	7922	274		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	277	#line 7921 "NXCDefs.h"
+0	39	277	#line 39 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	41	277	#line 41 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	42	277		getin __main_7qG2_silver_7qG2_000, __constVal0, 4
+0	41	281	#line 41 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	41	281	#line 41 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	41	281	#line 41 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	42	281	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	281		set __signed_stack_001main, 0
+0	42	284	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	42	284	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	284		set __signed_stack_002main, 32
+0	42	287	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	42	287	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	287		mov __D0main, __main_7qG2_silver_7qG2_000
+0	43	289	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	289	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	289		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	43	291	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	291		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	43	293	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	293		set __TextOutArgs.Options, 0
+0	43	296	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	296		numtostr __TextOutArgs.Text, __D0main
+0	43	299	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	299		syscall 13, __TextOutArgs
+0	43	302	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	302	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	302	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	302	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	302		set __signed_stack_001main, 3
+0	43	305	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	305	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	305		set __D0main, 1
+0	43	308	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	308	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	308		mov __RBtnArgs.Index, __signed_stack_001main
+0	43	310	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	310		mov __RBtnArgs.Reset, __D0main
+0	43	312	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	312		syscall 20, __RBtnArgs
+0	43	315	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	315	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	43	315	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	315		not __D0main, __RBtnArgs.Pressed
+0	44	318	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	318		tst 5, __zfmain, __D0main
+0	44	321	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	321		brtst 4, __NXC_Label_566, __zfmain
+0	44	324	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	324		jmp __NXC_Label_565
+0	44	326	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	326	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	326	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	326		set __signed_stack_001main, 0
+0	44	329	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	329	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	329		set __signed_stack_002main, 40
+0	44	332	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	44	332	#line 44 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	332		strcat __strbufmain, __constStr0011
+0	45	336	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	336	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	336		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	45	338	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	338		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	45	340	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	340		set __TextOutArgs.Options, 0
+0	45	343	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	343		mov __TextOutArgs.Text, __strbufmain
+0	45	345	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	345		syscall 13, __TextOutArgs
+0	45	348	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	348	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	348	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	348	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	348		set __signed_stack_001main, 50
+0	45	351	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	351	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	351		set __signed_stack_002main, 40
+0	45	354	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	45	354	#line 45 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	354		mov __D0main, __main_7qG2_silver_7qG2_000
+0	46	356	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	356	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	47	356		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	46	358	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	47	358		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	46	360	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	47	360		set __TextOutArgs.Options, 0
+0	46	363	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	47	363		numtostr __TextOutArgs.Text, __D0main
+0	46	366	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	47	366		syscall 13, __TextOutArgs
+0	46	369	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	369	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	369	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	46	369	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	47	369		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	46	372	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	7921	372	#line 7921 "NXCDefs.h"
+0	7922	372		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	375	#line 7921 "NXCDefs.h"
+0	50	375	#line 50 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	50	375	#line 50 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	51	375	#pragma macro 5
+0	51	375		mov __FDArgs.Filename, __constStr0012
+0	51	377		syscall 8, __FDArgs
+0	51	380		mov __D0main, __FDArgs.Result
+0	4297	382	#line 4297 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	50	382	#line 50 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	50	382	#line 50 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	51	382	#line 51 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	52	382	#pragma macro 7
+0	52	382		acquire __FOMutex
+0	52	383		mov __FOArgs.Filename, __constStr0012
+0	52	385		mov __FOArgs.Length, __main_7qG2_fsize_7qG2_000
+0	52	387		syscall 1, __FOArgs
+0	52	390		mov __main_7qG2_handle_7qG2_000, __FOArgs.FileHandle
+0	52	392		mov __D0main, __FOArgs.Result
+0	52	394		release __FOMutex
+0	4301	395	#line 4301 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	51	395	#line 51 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	51	395	#line 51 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	52	395	#line 52 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	53	395		mov __D0main, __main_7qG2_white_7qG2_000
+0	53	397	#line 53 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	54	397		numtostr __strretvalmain, __D0main
+0	53	400	#line 53 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	54	400		strcat __strbufmain, __strretvalmain
+0	53	404	#line 53 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	54	404		mov __main_7qG2_write_7qG2_000, __strbufmain
+0	53	406	#line 53 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	53	406	#line 53 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	54	406	#pragma macro 9
+0	54	406		mov __FWriteArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	54	408		strtoarr __FWriteFlattenBuf, __main_7qG2_write_7qG2_000
+0	54	411		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+0	54	416		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+0	54	419		syscall 4, __FWriteArgs
+0	54	422		mov __D0main, __FWriteArgs.Result
+0	54	424		mov __main_7qG2_bytesWritten_7qG2_000, __FWriteArgs.Length
+0	4316	426	#line 4316 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	53	426	#line 53 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	53	426	#line 53 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	54	426	#line 54 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	55	426		mov __D0main, __main_7qG2_black_7qG2_000
+0	55	428	#line 55 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	56	428		numtostr __strretvalmain, __D0main
+0	55	431	#line 55 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	56	431		strcat __strbufmain, __strretvalmain
+0	55	435	#line 55 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	56	435		mov __main_7qG2_write_7qG2_000, __strbufmain
+0	55	437	#line 55 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	55	437	#line 55 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	56	437	#pragma macro 9
+0	56	437		mov __FWriteArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	56	439		strtoarr __FWriteFlattenBuf, __main_7qG2_write_7qG2_000
+0	56	442		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+0	56	447		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+0	56	450		syscall 4, __FWriteArgs
+0	56	453		mov __D0main, __FWriteArgs.Result
+0	56	455		mov __main_7qG2_bytesWritten_7qG2_000, __FWriteArgs.Length
+0	4331	457	#line 4331 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	55	457	#line 55 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	55	457	#line 55 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	56	457	#line 56 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	57	457		mov __D0main, __main_7qG2_silver_7qG2_000
+0	57	459	#line 57 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	58	459		numtostr __strretvalmain, __D0main
+0	57	462	#line 57 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	58	462		strcat __strbufmain, __strretvalmain
+0	57	466	#line 57 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	58	466		mov __main_7qG2_write_7qG2_000, __strbufmain
+0	57	468	#line 57 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	57	468	#line 57 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	58	468	#pragma macro 9
+0	58	468		mov __FWriteArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	58	470		strtoarr __FWriteFlattenBuf, __main_7qG2_write_7qG2_000
+0	58	473		arrbuild __FWriteArgs.Buffer, __FWriteFlattenBuf, __FWriteLn
+0	58	478		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+0	58	481		syscall 4, __FWriteArgs
+0	58	484		mov __D0main, __FWriteArgs.Result
+0	58	486		mov __main_7qG2_bytesWritten_7qG2_000, __FWriteArgs.Length
+0	4346	488	#line 4346 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	57	488	#line 57 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	57	488	#line 57 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	58	488	#line 58 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	59	488	#pragma macro 5
+0	59	488		mov __FCArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	59	490		syscall 5, __FCArgs
+0	59	493		mov __D0main, __FCArgs.Result
+0	4350	495	#line 4350 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	58	495	#line 58 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	58	495	#line 58 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+0	59	495		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	64	0	#line 64 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc"
+2	65	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc
+1	__ResetSensorSubroutine	498	NXTDefs.h
+2	__initialize_global_data	511	D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Calibration.nxc

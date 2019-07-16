@@ -1,0 +1,162 @@
+#define colorsensor SENSOR_2
+#define colorsensor2 SENSOR_3
+
+task main() {
+int degrees = 0;
+int i = 0;
+int distance = 0;
+int wheeldiameter = 56;
+int rotations = 0;
+int error = 0;
+int power=65;
+int leftpower = 0;
+int rightpower =0;
+int range=0;
+int P = 120;
+int midpoint =334;
+int ws_midpoint = 0;
+int range2 = 200;
+
+int fsize = 512;
+ byte handle;
+ string read;
+
+OpenFileRead("Calibration.txt" , fsize, handle);
+ ReadLnString(handle, read);
+ int white = StrToNum(read);
+ ReadLnString(handle, read);
+ int black = StrToNum(read);
+ ReadLnString(handle, read);
+ int silver = StrToNum(read);
+ CloseFile(handle);
+
+range = white - black;     // 328
+midpoint = (white + black) / 2;  //334
+ws_midpoint = (white + silver) / 2; //518
+
+SetSensorColorFull(IN_2);
+SetSensorColorFull(IN_3);
+OnFwd(OUT_BC,60);
+while(true){
+if(colorsensor==1){
+Off(OUT_B);
+}
+if(colorsensor2==1){
+Off(OUT_C);
+}
+if(colorsensor==1 && colorsensor2==1){
+break;
+}
+}
+OnRev(OUT_BC,100);
+Wait(1000);
+Off(OUT_BC);
+OnRev(OUT_C,100);Wait(1000);
+OnRev(OUT_B,100);Wait(1000);
+Off(OUT_BC);
+SetSensorLowspeed(IN_4);
+while(true){
+OnFwd(OUT_BC,100);
+if(SensorUS(IN_4)<10){
+OnFwd(OUT_A,100);
+Off(OUT_BC);
+Wait(1500);
+break;
+}
+}
+OnFwd(OUT_BC,100);
+Wait(1000);
+OnRev(OUT_A,50);
+OnFwd(OUT_BC,100);
+Wait(2000);
+
+while(true){
+if(colorsensor==1){
+Off(OUT_B);
+}
+if(colorsensor2==1){
+Off(OUT_C);
+}
+if(colorsensor==1 && colorsensor2==1){
+break;
+}
+}
+SetSensorColorNone(IN_2);
+SetSensorColorNone(IN_3);
+SetSensor(IN_1,SENSOR_TOUCH);
+OnRev(OUT_BC,100);
+until(SENSOR_1==0);
+OnFwd(OUT_BC,100);
+Wait(500);
+Off(OUT_BC);
+Wait(3000);
+SetSensorColorFull(IN_2);
+SetSensorColorFull(IN_3);
+while(true){
+if(colorsensor==1){
+Off(OUT_B);
+}
+if(colorsensor2==1){
+Off(OUT_C);
+}
+if(colorsensor==1 && colorsensor2==1){
+OnRev(OUT_BC,100);
+Wait(2000);
+break;
+while(true)
+{
+SetSensorLowspeed(IN_4);
+ SetSensorLight(IN_2);
+ SetSensorColorRed(IN_2);
+                                               //LIGHT_ACTIVE is the default type
+ SetSensorMode(IN_2, SENSOR_MODE_RAW);
+ if(Sensor(IN_1) < silver)                                                        // Follow the line until you reach the midpoint between white and silver
+ {
+  ResetTachoCount(OUT_C);                                                        // Reset the Motor Encoder for both motors to 0
+  ResetTachoCount(OUT_B);                                                                         // Depending on the lighting, the robot may never see the full silver value
+  leftpower = power;
+  rightpower = power;
+  error = Sensor(IN_1) - midpoint;                                              // We are trying to stay halfway between black and white
+  if (error >= 0) rightpower = power - (power * abs(error) / range * P);        // This assumes the robot is going to follow the left side of the black triangle
+  if (error < 0) leftpower = power - (power * abs(error) / range * P);          // Cutting the power (and using negative power) makes sure the robot will follow the line
+  OnFwd(OUT_C, leftpower);
+  OnFwd(OUT_B, rightpower);
+   degrees = abs(MotorRotationCount(OUT_B) + MotorRotationCount(OUT_C)) / 2;      // Average the two motors to reduce errors in line following
+ rotations = degrees / 360;                                                     // Convert motor degrees to rotations
+ distance = rotations * wheeldiameter * 3.1416;
+
+ }
+ else if(Sensor(IN_1) > range2)
+ {
+   i++;
+    if(i <=2)
+   {
+   Off(OUT_B);
+   until (Sensor(IN_1) <= black);
+   OnFwd(OUT_C,70);
+   Wait(260);
+   leftpower = power;
+  rightpower = power;
+  error = Sensor(IN_1) - midpoint;                                              // We are trying to stay halfway between black and white
+  if (error >= 0) rightpower = power - (power * abs(error) / range * P);        // This assumes the robot is going to follow the left side of the black triangle
+  if (error < 0) leftpower = power - (power * abs(error) / range * P);          // Cutting the power (and using negative power) makes sure the robot will follow the line
+  OnFwd(OUT_C, leftpower);
+  OnFwd(OUT_B, rightpower);
+}
+ else
+ {
+  break;
+ }
+}
+
+}
+}
+}
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+mutex moveMutex;
+#define COLORSENSOR SENSOR_2
+task move()
+{
+while (true)
+{
+Acquire(moveMutex);
+OnFwd(OUT_BC, 75); Wait(1000);
+Release(moveMutex);
+}
+}
+task color_sensor(){
+        while(true){
+        SetSensorColorFull(IN_2)
+        if(COLORSENSOR==1){
+        Off(OUT_BC);
+}
+}
+}
+task main()
+{
+Precedes(move,color_sensor);
+}

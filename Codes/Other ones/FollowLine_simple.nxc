@@ -1,0 +1,23 @@
+task main()
+{
+ SetSensorColorFull(IN_3);
+ int x,power;
+ while(true)
+ {
+  x = SENSOR_3;
+  if (x == 1) OnFwd(OUT_BC,75);
+  if (x == 3)
+  {
+   OnFwd(OUT_B,75);
+   Off(OUT_C);
+   x=SENSOR_3;
+  }
+  if(x == 5)
+  {
+   Off(OUT_B);
+   OnFwd(OUT_C,75);
+   x=SENSOR_3;
+  }
+ }
+}
+

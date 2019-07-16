@@ -1,0 +1,388 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLight_inline_main	6	1	0	4	3
+1	__DU0SetSensorLight_inline_main	5	1	4	4	2
+2	__FOMutex	9	0	8	4	2
+3	__D0main	6	1	12	4	19
+4	__constVal65535	6	0	16	4	3
+5	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	20	4	10
+6	__signed_stack_001main	6	1	24	4	10
+7	__signed_stack_002main	6	1	28	4	2
+8	__RLSByteCount	3	1	32	2	4
+9	__RLSMaxBytes	3	1	34	2	4
+10	__RLSReturn	3	1	36	2	5
+11	__main_7qG2_black_7qG2_000	4	1	38	2	5
+12	__main_7qG2_fsize_7qG2_000	4	1	40	2	2
+13	__constVal128	4	0	42	2	1
+14	__main_7qG2_white_7qG2_000	4	1	44	2	2
+15	__constVal96	2	0	46	1	4
+16	__constVal63	2	0	47	1	4
+17	__constVal32	2	0	48	1	12
+18	__main_7qG2_handle_7qG2_000	1	1	49	1	5
+19	__constVal0	2	1	50	1	19
+20	__zfSetSensorLight_inline_main	1	1	51	1	2
+21	____initialize_global_data_return	1	1	52	1	3
+22	__constVal1	2	0	53	1	5
+23	__SetSensorMode_7qG2_mode_7qG2_000_inline_main	1	1	54	1	2
+24	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	55	1	2
+25	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	56	1	2
+26	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	57	1	2
+27	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	58	1	2
+28	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	59	1	4
+29	__SetSensorMode_7qG2_port_7qG2_000_inline_main	1	1	60	1	2
+30	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	61	1	2
+31	__SetSensorColorRed_7qG2_port_7qG2_000_inline_main	1	1	62	1	4
+32	__constVal10	2	0	63	1	1
+33	____readStringLine_return	1	1	64	1	1
+34	__PFTmp	1	1	65	1	1
+35	__constVal13	2	0	66	1	1
+36	____ResetSensorSubroutine_return	1	1	67	1	4
+37	__constVal2	2	0	68	1	1
+38	__RLSReturnAddress	1	1	69	1	4
+39	__FReadTmpByte	1	1	70	1	3
+40	__ResetSensorTmp	1	1	71	1	2
+41	__zfmain	1	1	72	1	8
+42	__ResetSensorPort	1	1	73	1	4
+43	__constVal3	2	0	74	1	4
+44	__constVal14	2	0	75	1	1
+45	__FReadArgs	8	0	4	12	8
+46	__FReadArgs.Result	3	1	76	2	8
+47	__FReadArgs.FileHandle	1	1	78	1	8
+48	__FReadArgs.Buffer	7	0	80	4	8
+49	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+50	__FReadArgs.Length	5	1	84	4	8
+51	__FCArgs	8	0	2	4	2
+52	__FCArgs.Result	3	1	88	2	2
+53	__FCArgs.FileHandle	1	1	90	1	2
+54	__FOArgs	8	0	4	12	5
+55	__FOArgs.Result	3	1	92	2	5
+56	__FOArgs.FileHandle	1	1	94	1	5
+57	__FOArgs.Filename	7	0	96	4	5
+58	__FOArgs.Filename.Filename_type	1	0	0	1	0
+59	__FOArgs.Length	5	1	100	4	5
+60	__TextOutArgs	8	0	4	16	6
+61	__TextOutArgs.Result	2	1	104	1	6
+62	__TextOutArgs.Location	8	0	2	4	6
+63	__TextOutArgs.Location.X	4	1	108	2	6
+64	__TextOutArgs.Location.Y	4	1	110	2	6
+65	__TextOutArgs.Text	7	0	112	4	6
+66	__TextOutArgs.Text.Text_type	1	0	0	1	0
+67	__TextOutArgs.Options	5	1	116	4	6
+68	__OUT_AB	7	0	120	4	2
+69	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+70	__main_7qG2_read_7qG2_000	7	0	122	4	6
+71	__main_7qG2_read_7qG2_000.__main_7qG2_read_7qG2_000_type	1	0	0	1	0
+72	__constStr0009	7	0	124	4	1
+73	__constStr0009.__constStr0009_type	1	1	0	1	0
+74	__RLSOutput	7	0	126	4	6
+75	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+76	__strbufmain	7	0	128	4	5
+77	__strbufmain.__strbufmain_type	1	0	0	1	0
+78	__RLSBuffer	7	0	130	4	2
+79	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	5	2	#line 5 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	5	2	#line 5 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	6	2	#line 6 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	6	2	#line 6 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	7	2	#line 7 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	7	2	#line 7 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	8	2	#line 8 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	8	2	#line 8 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	10	2	#line 10 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	10	2	#line 10 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	11	2	#line 11 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	12	2		set __main_7qG2_fsize_7qG2_000, 512
+0	11	5	#line 11 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	13	5	#line 13 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	14	5	#pragma macro 7
+0	14	5		acquire __FOMutex
+0	14	6		mov __FOArgs.Filename, __constStr0009
+0	14	8		syscall 0, __FOArgs
+0	14	11		mov __main_7qG2_fsize_7qG2_000, __FOArgs.Length
+0	14	13		mov __main_7qG2_handle_7qG2_000, __FOArgs.FileHandle
+0	14	15		mov __D0main, __FOArgs.Result
+0	14	17		release __FOMutex
+0	3717	18	#line 3717 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	13	18	#line 13 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	13	18	#line 13 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	14	18	#line 14 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	15	18	#pragma macro 7
+0	15	18		mov __FReadArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	15	20		mov __RLSMaxBytes, __constVal65535
+0	15	22		subcall __readStringLine, __RLSReturnAddress
+0	15	24		mov __D0main, __RLSReturn
+0	15	26		mov __main_7qG2_read_7qG2_000, __RLSOutput
+0	3721	28	#line 3721 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	14	28	#line 14 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	14	28	#line 14 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	15	28	#line 15 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	16	28		strcat __strbufmain, __main_7qG2_read_7qG2_000
+0	16	32	#line 16 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	17	32		strtonum __main_7qG2_white_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	16	38	#line 16 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	16	38	#line 16 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	17	38	#pragma macro 7
+0	17	38		mov __FReadArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	17	40		mov __RLSMaxBytes, __constVal65535
+0	17	42		subcall __readStringLine, __RLSReturnAddress
+0	17	44		mov __D0main, __RLSReturn
+0	17	46		mov __main_7qG2_read_7qG2_000, __RLSOutput
+0	3737	48	#line 3737 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	16	48	#line 16 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	16	48	#line 16 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	17	48	#line 17 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	18	48		strcat __strbufmain, __main_7qG2_read_7qG2_000
+0	18	52	#line 18 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	19	52		strtonum __main_7qG2_black_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	18	58	#line 18 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	18	58	#line 18 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	19	58	#pragma macro 7
+0	19	58		mov __FReadArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	19	60		mov __RLSMaxBytes, __constVal65535
+0	19	62		subcall __readStringLine, __RLSReturnAddress
+0	19	64		mov __D0main, __RLSReturn
+0	19	66		mov __main_7qG2_read_7qG2_000, __RLSOutput
+0	3753	68	#line 3753 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	18	68	#line 18 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	18	68	#line 18 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	19	68	#line 19 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	20	68		strcat __strbufmain, __main_7qG2_read_7qG2_000
+0	20	72	#line 20 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	20	72	#line 20 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	20	72	#line 20 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	21	72	#pragma macro 5
+0	21	72		mov __FCArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	21	74		syscall 5, __FCArgs
+0	3769	77	#line 3769 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	20	77	#line 20 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	20	77	#line 20 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	21	77	#line 21 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	21	77	#line 21 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	21	77	#line 21 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	21	77	#line 21 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	22	77		add __signed_stack_001main, __main_7qG2_white_7qG2_000, __main_7qG2_black_7qG2_000
+0	21	81	#line 21 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	22	81	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	22	81	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	23	81		div __main_7qG2_black_7qG2_000, __signed_stack_001main, __constVal2
+0	22	85	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	22	85	#line 22 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	23	85	#line 23 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	24	85		set __D0main, 1
+0	24	88	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	25	88		tst 5, __zfmain, __D0main
+0	24	91	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	25	91		brtst 4, __NXC_Label_512, __zfmain
+0	24	94	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	25	94		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	24	97	#line 24 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	25	97	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	26	97		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	99	#line 3729 "NXCDefs.h"
+0	3730	99		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	101	#line 3729 "NXCDefs.h"
+0	3729	101	#line 3729 "NXCDefs.h"
+0	3730	101		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	103	#line 3729 "NXCDefs.h"
+0	3730	103		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	106	#line 3729 "NXCDefs.h"
+0	3730	106		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	109	#line 3729 "NXCDefs.h"
+0	3730	109		set __D0SetSensorLight_inline_main, 5
+0	3729	112	#line 3729 "NXCDefs.h"
+0	3730	112		jmp __001__NXC_Label_5
+0	3729	114	#line 3729 "NXCDefs.h"
+0	3730	114		set __D0SetSensorLight_inline_main, 6
+0	3729	117	#line 3729 "NXCDefs.h"
+0	3730	117		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	119	#line 3663 "NXCDefs.h"
+0	3664	119		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	123	#line 3663 "NXCDefs.h"
+0	3730	123	#line 3730 "NXCDefs.h"
+0	3730	123	#line 3730 "NXCDefs.h"
+0	3731	123		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	125	#line 3730 "NXCDefs.h"
+0	3730	125	#line 3730 "NXCDefs.h"
+0	3731	125		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	128	#line 3730 "NXCDefs.h"
+0	3676	128	#line 3676 "NXCDefs.h"
+0	3677	128		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	132	#line 3676 "NXCDefs.h"
+0	3731	132	#line 3731 "NXCDefs.h"
+0	3731	132	#line 3731 "NXCDefs.h"
+0	3731	132	#line 3731 "NXCDefs.h"
+0	3694	132	#line 3694 "NXCDefs.h"
+0	3695	132	#pragma macro 4
+0	3695	132		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	134		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3893	136	#line 3893 "NXCDefs.h"
+0	3694	136	#line 3694 "NXCDefs.h"
+0	3732	136	#line 3732 "NXCDefs.h"
+0	25	136	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	25	136	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	26	136		set __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 0
+0	25	139	#line 25 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	3812	139	#line 3812 "NXCDefs.h"
+0	3813	139	#pragma macro 6
+0	3813	139		setin __constVal14, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 0
+0	3813	143		setin __constVal128, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 1
+0	3813	147		mov __ResetSensorPort, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main
+0	3813	149		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3908	151	#line 3908 "NXCDefs.h"
+0	3812	151	#line 3812 "NXCDefs.h"
+0	26	151	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	26	151	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	27	151		set __SetSensorMode_7qG2_port_7qG2_000_inline_main, 0
+0	26	154	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	26	154	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	27	154		set __SetSensorMode_7qG2_mode_7qG2_000_inline_main, 0
+0	26	157	#line 26 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	3676	157	#line 3676 "NXCDefs.h"
+0	3677	157		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	3676	161	#line 3676 "NXCDefs.h"
+0	27	161	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	27	161	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	28	161		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	27	164	#line 27 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	7921	164	#line 7921 "NXCDefs.h"
+0	7922	164		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	167	#line 7921 "NXCDefs.h"
+0	28	167	#line 28 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	28	167	#line 28 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	29	167		set __signed_stack_001main, 0
+0	28	170	#line 28 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	28	170	#line 28 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	29	170		set __signed_stack_002main, 0
+0	28	173	#line 28 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	28	173	#line 28 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	29	173		getin __D0main, __constVal0, 4
+0	29	177	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	29	177	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	177		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	29	179	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	179		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	29	181	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	181		set __TextOutArgs.Options, 0
+0	29	184	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	184		numtostr __TextOutArgs.Text, __D0main
+0	29	187	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	187		syscall 13, __TextOutArgs
+0	29	190	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	190		mov __D0main, __TextOutArgs.Result
+0	29	192	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	29	192	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	29	192	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	29	192	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	192		getin __signed_stack_001main, __constVal0, 4
+0	29	196	#line 29 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	30	196	#line 30 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	31	196		mov __D0main, __main_7qG2_black_7qG2_000
+0	30	198	#line 30 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	31	198		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	30	202	#line 30 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	31	202		mov __D0main, __zfmain
+0	31	204	#line 31 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	32	204		brtst 4, __NXC_Label_537, __zfmain
+0	31	207	#line 31 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	32	207		set __D0main, 75
+0	32	210	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	33	210	#pragma macro 7
+0	33	210		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4006	233	#line 4006 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	32	233	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	32	233	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	33	233		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
+0	32	236	#line 32 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	7921	236	#line 7921 "NXCDefs.h"
+0	7922	236		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	239	#line 7921 "NXCDefs.h"
+0	33	239	#line 33 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	34	239	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	35	239	#pragma macro 7
+0	35	239		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4019	262	#line 4019 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	34	262	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	34	262	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	35	262		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	34	265	#line 34 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	7921	265	#line 7921 "NXCDefs.h"
+0	7922	265		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	268	#line 7921 "NXCDefs.h"
+0	36	268	#line 36 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	37	268	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	38	268		jmp __NXC_Label_544
+0	37	270	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	38	270		getin __signed_stack_001main, __constVal0, 4
+0	37	274	#line 37 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	38	274	#line 38 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	39	274		mov __D0main, __main_7qG2_black_7qG2_000
+0	38	276	#line 38 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	39	276		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	38	280	#line 38 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	39	280		mov __D0main, __zfmain
+0	39	282	#line 39 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	40	282		brtst 4, __NXC_Label_549, __zfmain
+0	39	285	#line 39 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	40	285		set __D0main, 75
+0	40	288	#line 40 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	41	288	#pragma macro 7
+0	41	288		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4055	311	#line 4055 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	40	311	#line 40 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	40	311	#line 40 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	41	311		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
+0	40	314	#line 40 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	7921	314	#line 7921 "NXCDefs.h"
+0	7922	314		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	317	#line 7921 "NXCDefs.h"
+0	41	317	#line 41 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	42	317	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	43	317	#pragma macro 7
+0	43	317		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4068	340	#line 4068 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	42	340	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	42	340	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	43	340		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	42	343	#line 42 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	7921	343	#line 7921 "NXCDefs.h"
+0	7922	343		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	346	#line 7921 "NXCDefs.h"
+0	43	346	#line 43 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	46	346	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	46	346	#line 46 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	50	346	#line 50 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	51	346		jmp __NXC_Label_511
+0	50	348	#line 50 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+0	51	348		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	8048	0		arrinit __RLSOutput, __constVal0, __constVal1
+2	8049	4		set __RLSByteCount, 0
+2	8051	7		set __FReadArgs.Length, 1
+2	8052	10		mov __RLSBuffer, __RLSOutput
+2	8053	12		syscall 3, __FReadArgs
+2	8054	15		mov __RLSReturn, __FReadArgs.Result
+2	8055	17		brtst 5, __RLSStringDone, __RLSReturn
+2	8056	20		index __FReadTmpByte, __FReadArgs.Buffer, 65535
+2	8057	24		brcmp 4, __RLSStringDone, __FReadTmpByte, __constVal10
+2	8058	28		brcmp 4, __RLSStringSkip, __FReadTmpByte, __constVal13
+2	8059	32		strcat __RLSOutput, __RLSBuffer, __FReadArgs.Buffer
+2	8060	37		add __RLSByteCount, __RLSByteCount, __constVal1
+2	8061	41		brcmp 3, __RLSStringDone, __RLSByteCount, __RLSMaxBytes
+2	8063	45		jmp __RLSStringLoop
+2	8065	47		subret __RLSReturnAddress
+3	51	0	#line 51 "D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc"
+3	52	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc
+1	__ResetSensorSubroutine	351	NXTDefs.h
+2	__readStringLine	364	NXTDefs.h
+3	__initialize_global_data	413	D:\Desktop_Joy\SCHOOL\My Files\Robofest\Codes\Other ones\Untitled1.nxc

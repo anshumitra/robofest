@@ -1,0 +1,104 @@
+int computePower(int p, int e, float r) {
+	return p - (p * abs(e) * r);
+}
+task main(){
+
+	SetSensorLight(IN_3);
+	SetSensorColorRed(IN_3);
+	SetSensorMode(IN_3, SENSOR_MODE_RAW);
+	// Raw gives better precision than percent
+	//white=525
+	//silver=538
+	//black= 170
+	int error = 0;
+	int power=65;
+	int leftpower = 0;
+	int rightpower =0;
+	int range=0;
+	int P = 120;
+	int midpoint =334;
+	int ws_midpoint = 0;
+	int range2 = 200;
+	int i;//changed int i=0 to int i
+	float x;
+	float y;
+	float a;
+	int fsize = 512;
+	byte handle;
+	string read;
+	OpenFileRead("Calibration.txt" , fsize, handle);
+	ReadLnString(handle, read);
+	int white = StrToNum(read);
+	ReadLnString(handle, read);
+	int black = StrToNum(read);
+	ReadLnString(handle, read);
+	int silver = StrToNum(read);
+	CloseFile(handle);
+
+	range = white - black;     // 328
+	float inv_range = P;
+	inv_range = inv_range / range;
+	midpoint = (white + black) / 2;  //334
+	ws_midpoint = (white + silver) / 2; //518
+	i = 0;
+	while(true){
+		if(Sensor(IN_3) < silver){
+			// Follow the line until you reach the midpoint between white and silver
+			// Depending on the lighting, the robot may never see the full silver value
+			leftpower = power;
+			rightpower = power;
+			error = Sensor(IN_3) - midpoint;    //changed to sensor 2
+			// We are trying to stay halfway between black and white
+			if (error >= 0) rightpower = computePower(power, error, inv_range);
+			// This assumes the robot is going to follow the left side of the black triangle
+			if (error < 0) leftpower = computePower(power, error, inv_range);
+			// Cutting the power (and using negative power) makes sure the robot will follow the line
+			OnFwd(OUT_B, leftpower);
+			OnFwd(OUT_C, rightpower);
+		}
+		else if(Sensor(IN_3) > range2){
+			i++;
+			if (i==1){
+				ResetRotationCount(OUT_B);
+				Wait(1);
+				Off(OUT_B);
+				OnFwd(OUT_C,70);
+				until (Sensor(IN_3) <= black);
+				Wait(260);
+
+				leftpower = power;
+				rightpower = power;
+				error = Sensor(IN_3) - midpoint;
+				if (error >= 0) rightpower = computePower(power, error, inv_range);
+				if (error < 0) leftpower = computePower(power, error, inv_range);
+				OnFwd(OUT_B, leftpower);
+				OnFwd(OUT_C, rightpower);
+			}
+			else if (i==2){
+				x=MotorRotationCount(OUT_B);
+				Wait(1);
+				ResetRotationCount(OUT_B);
+				Wait(1);
+				Off(OUT_B);
+				OnFwd(OUT_C,70);
+				until (Sensor(IN_3) <= black);
+				Wait(260);
+
+				leftpower = power;
+				rightpower = power;
+				error = Sensor(IN_3) - midpoint;
+				if (error >= 0) rightpower = computePower(power, error, inv_range);
+				if (error < 0) leftpower = computePower(power, error, inv_range);
+				OnFwd(OUT_B, leftpower);
+				OnFwd(OUT_C, rightpower);
+			}
+			else if (i == 3 ){
+				y=MotorRotationCount(OUT_B);
+				Wait(1);
+				Off(OUT_BC);
+				Wait(100);
+				break;
+			}
+		}
+	}
+}

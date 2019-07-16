@@ -1,0 +1,1380 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	140
+1	__D0SetSensorLight_inline_main	6	1	4	4	3
+2	__DU0SetSensorLight_inline_main	5	1	8	4	2
+3	__CLSRMutex3	9	0	12	4	2
+4	__RLSBmutex3	9	0	16	4	2
+5	__FOMutex	9	0	20	4	2
+6	__D0SetSensorLowspeed_inline_main	6	1	24	4	6
+7	__constVal65535	6	0	28	4	3
+8	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	32	4	10
+9	__constValf3P1416	10	0	36	4	1
+10	__DU0SetSensorLowspeed_inline_main	5	1	40	4	4
+11	__signed_stack_001main	6	1	44	4	69
+12	__signed_stack_002main	6	1	48	4	30
+13	__CLSWMutex3	9	0	52	4	2
+14	__CLSCSMutex3	9	0	56	4	2
+15	__main_7qG2_error_7qG2_000	4	1	60	2	11
+16	__main_7qG2_rotations_7qG2_000	4	1	62	2	3
+17	__main_7qG2_leftpower_7qG2_000	4	1	64	2	7
+18	__main_7qG2_power_7qG2_000	4	1	66	2	13
+19	__main_7qG2_wheeldiameter_7qG2_000	4	1	68	2	2
+20	__constVal128	4	0	70	2	3
+21	__constVal360	4	0	72	2	1
+22	__main_7qG2_degrees_7qG2_000	4	1	74	2	3
+23	__main_7qG2_distance_7qG2_000	4	1	76	2	2
+24	__main_7qG2_i_7qG2_000	4	1	78	2	4
+25	__main_7qG2_fsize_7qG2_000	4	1	80	2	2
+26	__main_7qG2_range2_7qG2_000	4	1	82	2	2
+27	__main_7qG2_white_7qG2_000	4	1	84	2	4
+28	__main_7qG2_silver_7qG2_000	4	1	86	2	3
+29	__main_7qG2_black_7qG2_000	4	1	88	2	4
+30	__main_7qG2_range_7qG2_000	4	1	90	2	6
+31	__main_7qG2_rightpower_7qG2_000	4	1	92	2	7
+32	__main_7qG2_P_7qG2_000	4	1	94	2	5
+33	__main_7qG2_ws_midpoint_7qG2_000	4	1	96	2	2
+34	__main_7qG2_midpoint_7qG2_000	4	1	98	2	4
+35	__RLSByteCount	3	1	100	2	4
+36	__RLSReturn	3	1	102	2	5
+37	__RLSMaxBytes	3	1	104	2	4
+38	__constVal32	2	0	106	1	85
+39	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	107	1	2
+40	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	108	1	16
+41	__constVal96	2	0	109	1	28
+42	__constVal2	2	0	110	1	18
+43	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	111	1	2
+44	__RLSBResult3	2	1	112	1	7
+45	__RLSBytesCount3	1	1	113	1	7
+46	__RLSBIterations3	1	1	114	1	4
+47	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	115	1	2
+48	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	116	1	2
+49	__main_7qG2_handle_7qG2_000	1	1	117	1	5
+50	____ReadLSBytes3_return	1	1	118	1	3
+51	__SetSensorColorNone_7qG2_port_7qG2_000_inline_main	1	1	119	1	8
+52	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	120	1	2
+53	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	121	1	4
+54	__constVal17	2	0	122	1	2
+55	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	123	1	2
+56	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	124	1	4
+57	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	125	1	4
+58	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	126	1	10
+59	__OnRev_Tmp	2	1	127	1	12
+60	__constVal63	2	0	128	1	28
+61	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	129	1	4
+62	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	130	1	4
+63	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	131	1	4
+64	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	132	1	4
+65	__ResetSensorTmp	1	1	133	1	2
+66	____ResetSensorSubroutine_return	1	1	134	1	13
+67	__zfmain	1	1	135	1	83
+68	__constVal3	2	0	136	1	28
+69	__ResetSensorPort	1	1	137	1	13
+70	__zfSetSensorLight_inline_main	1	1	138	1	2
+71	__constVal14	2	0	139	1	1
+72	__constVal13	2	0	140	1	5
+73	__constVal10	2	0	141	1	1
+74	____readStringLine_return	1	1	142	1	1
+75	__constVal50	2	0	143	1	1
+76	__constVal8	2	0	144	1	2
+77	__constVal100	2	0	145	1	5
+78	__zfSetSensorLowspeed_inline_main	1	1	146	1	4
+79	__SetSensorMode_7qG2_mode_7qG2_000_inline_main	1	1	147	1	2
+80	__RLSReturnAddress	1	1	148	1	4
+81	__SetSensorMode_7qG2_port_7qG2_000_inline_main	1	1	149	1	2
+82	__FReadTmpByte	1	1	150	1	3
+83	__constVal0	2	1	151	1	109
+84	__SetSensorColorRed_7qG2_port_7qG2_000_inline_main	1	1	152	1	4
+85	__constVal1	2	0	153	1	24
+86	____initialize_global_data_return	1	1	154	1	3
+87	__FReadArgs	8	0	4	12	8
+88	__FReadArgs.Result	3	1	156	2	8
+89	__FReadArgs.FileHandle	1	1	158	1	8
+90	__FReadArgs.Buffer	7	0	160	4	8
+91	__FReadArgs.Buffer.Buffer_type	1	0	0	1	0
+92	__FReadArgs.Length	5	1	164	4	8
+93	__FOArgs	8	0	4	12	5
+94	__FOArgs.Result	3	1	168	2	5
+95	__FOArgs.FileHandle	1	1	170	1	5
+96	__FOArgs.Filename	7	0	172	4	5
+97	__FOArgs.Filename.Filename_type	1	0	0	1	0
+98	__FOArgs.Length	5	1	176	4	5
+99	__FCArgs	8	0	2	4	2
+100	__FCArgs.Result	3	1	180	2	2
+101	__FCArgs.FileHandle	1	1	182	1	2
+102	__CLSRArgs3	8	0	4	12	5
+103	__CLSRArgs3.Result	2	1	184	1	5
+104	__CLSRArgs3.Port	1	1	185	1	5
+105	__CLSRArgs3.Buffer	7	0	186	4	5
+106	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+107	__CLSRArgs3.BufferLen	1	1	188	1	5
+108	__CLSCSArgs3	8	0	3	4	4
+109	__CLSCSArgs3.Result	2	1	192	1	4
+110	__CLSCSArgs3.Port	1	1	193	1	4
+111	__CLSCSArgs3.BytesReady	1	1	194	1	4
+112	__CLSWArgs3	8	0	4	12	5
+113	__CLSWArgs3.Result	2	1	196	1	5
+114	__CLSWArgs3.Port	1	1	197	1	5
+115	__CLSWArgs3.Buffer	7	0	198	4	5
+116	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+117	__CLSWArgs3.ReturnLen	1	1	200	1	5
+118	__OUT_BC	7	0	202	4	12
+119	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+120	__RLSBuffer	7	0	204	4	2
+121	__RLSBuffer.__RLSBuffer_type	1	0	0	1	0
+122	__RLSReadBuf3	7	0	206	4	8
+123	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+124	__strbufmain	7	0	208	4	6
+125	__strbufmain.__strbufmain_type	1	0	0	1	0
+126	__RLSOutput	7	0	210	4	6
+127	__RLSOutput.__RLSOutput_type	1	0	0	1	0
+128	__constStr0009	7	0	212	4	1
+129	__constStr0009.__constStr0009_type	1	1	0	1	0
+130	__RLSBbufLSWrite1	7	0	214	4	1
+131	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+132	__RLSLastGoodRead3	7	0	216	4	2
+133	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+134	__main_7qG2_read_7qG2_000	7	0	218	4	6
+135	__main_7qG2_read_7qG2_000.__main_7qG2_read_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	5	2	#line 5 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	6	2		set __main_7qG2_degrees_7qG2_000, 0
+0	5	5	#line 5 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	6	5	#line 6 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7	5		set __main_7qG2_i_7qG2_000, 0
+0	6	8	#line 6 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7	8	#line 7 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	8	8		set __main_7qG2_distance_7qG2_000, 0
+0	7	11	#line 7 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	8	11	#line 8 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	9	11		set __main_7qG2_wheeldiameter_7qG2_000, 56
+0	8	14	#line 8 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	9	14	#line 9 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	10	14		set __main_7qG2_rotations_7qG2_000, 0
+0	9	17	#line 9 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	10	17	#line 10 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	11	17		set __main_7qG2_error_7qG2_000, 0
+0	10	20	#line 10 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	11	20	#line 11 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	12	20		set __main_7qG2_power_7qG2_000, 65
+0	11	23	#line 11 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	12	23	#line 12 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	13	23		set __main_7qG2_leftpower_7qG2_000, 0
+0	12	26	#line 12 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	13	26	#line 13 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	14	26		set __main_7qG2_rightpower_7qG2_000, 0
+0	13	29	#line 13 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	14	29	#line 14 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	15	29		set __main_7qG2_range_7qG2_000, 0
+0	14	32	#line 14 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	15	32	#line 15 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	16	32		set __main_7qG2_P_7qG2_000, 120
+0	15	35	#line 15 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	16	35	#line 16 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	17	35		set __main_7qG2_midpoint_7qG2_000, 334
+0	16	38	#line 16 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	17	38	#line 17 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	18	38		set __main_7qG2_ws_midpoint_7qG2_000, 0
+0	17	41	#line 17 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	19	41	#line 19 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	20	41		set __main_7qG2_range2_7qG2_000, 200
+0	19	44	#line 19 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	20	44	#line 20 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	21	44		set __main_7qG2_fsize_7qG2_000, 512
+0	20	47	#line 20 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	23	47	#line 23 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	24	47	#pragma macro 7
+0	24	47		acquire __FOMutex
+0	24	48		mov __FOArgs.Filename, __constStr0009
+0	24	50		syscall 0, __FOArgs
+0	24	53		mov __main_7qG2_fsize_7qG2_000, __FOArgs.Length
+0	24	55		mov __main_7qG2_handle_7qG2_000, __FOArgs.FileHandle
+0	24	57		mov __D0main, __FOArgs.Result
+0	24	59		release __FOMutex
+0	6490	60	#line 6490 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	23	60	#line 23 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	23	60	#line 23 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	24	60	#line 24 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	25	60	#pragma macro 7
+0	25	60		mov __FReadArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	25	62		mov __RLSMaxBytes, __constVal65535
+0	25	64		subcall __readStringLine, __RLSReturnAddress
+0	25	66		mov __D0main, __RLSReturn
+0	25	68		mov __main_7qG2_read_7qG2_000, __RLSOutput
+0	6494	70	#line 6494 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	24	70	#line 24 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	24	70	#line 24 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	25	70	#line 25 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	26	70		strcat __strbufmain, __main_7qG2_read_7qG2_000
+0	26	74	#line 26 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	27	74		strtonum __main_7qG2_white_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	26	80	#line 26 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	26	80	#line 26 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	27	80	#pragma macro 7
+0	27	80		mov __FReadArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	27	82		mov __RLSMaxBytes, __constVal65535
+0	27	84		subcall __readStringLine, __RLSReturnAddress
+0	27	86		mov __D0main, __RLSReturn
+0	27	88		mov __main_7qG2_read_7qG2_000, __RLSOutput
+0	6510	90	#line 6510 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	26	90	#line 26 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	26	90	#line 26 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	27	90	#line 27 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	28	90		strcat __strbufmain, __main_7qG2_read_7qG2_000
+0	28	94	#line 28 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	29	94		strtonum __main_7qG2_black_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	28	100	#line 28 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	28	100	#line 28 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	29	100	#pragma macro 7
+0	29	100		mov __FReadArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	29	102		mov __RLSMaxBytes, __constVal65535
+0	29	104		subcall __readStringLine, __RLSReturnAddress
+0	29	106		mov __D0main, __RLSReturn
+0	29	108		mov __main_7qG2_read_7qG2_000, __RLSOutput
+0	6526	110	#line 6526 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	28	110	#line 28 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	28	110	#line 28 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	29	110	#line 29 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	30	110		strcat __strbufmain, __main_7qG2_read_7qG2_000
+0	30	114	#line 30 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	31	114		strtonum __main_7qG2_silver_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	30	120	#line 30 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	30	120	#line 30 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	31	120	#pragma macro 5
+0	31	120		mov __FCArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	31	122		syscall 5, __FCArgs
+0	6542	125	#line 6542 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	30	125	#line 30 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	30	125	#line 30 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	32	125	#line 32 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	32	125	#line 32 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	33	125	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	33	125	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	125		sub __main_7qG2_range_7qG2_000, __main_7qG2_white_7qG2_000, __main_7qG2_black_7qG2_000
+0	33	129	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	33	129	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	33	129	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	33	129	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	33	129	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	33	129	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	129		add __signed_stack_001main, __main_7qG2_white_7qG2_000, __main_7qG2_black_7qG2_000
+0	33	133	#line 33 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	133	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	133	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	35	133		div __main_7qG2_midpoint_7qG2_000, __signed_stack_001main, __constVal2
+0	34	137	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	137	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	137	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	137	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	137	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	34	137	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	35	137		add __signed_stack_001main, __main_7qG2_white_7qG2_000, __main_7qG2_silver_7qG2_000
+0	34	141	#line 34 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	36	141	#line 36 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	36	141	#line 36 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	37	141		div __main_7qG2_ws_midpoint_7qG2_000, __signed_stack_001main, __constVal2
+0	36	145	#line 36 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	36	145	#line 36 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	36	145	#line 36 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	37	145		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	36	148	#line 36 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3802	148	#line 3802 "NXCDefs.h"
+0	3803	148	#pragma macro 6
+0	3803	148		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	3803	152		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	3803	156		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	3803	158		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6611	160	#line 6611 "NXCDefs.h"
+0	3802	160	#line 3802 "NXCDefs.h"
+0	37	160	#line 37 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	37	160	#line 37 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	38	160		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 2
+0	37	163	#line 37 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3802	163	#line 3802 "NXCDefs.h"
+0	3803	163	#pragma macro 6
+0	3803	163		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	3803	167		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	3803	171		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	3803	173		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6621	175	#line 6621 "NXCDefs.h"
+0	3802	175	#line 3802 "NXCDefs.h"
+0	38	175	#line 38 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	38	175	#line 38 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	39	175		set __D0main, 60
+0	39	178	#line 39 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	40	178	#pragma macro 7
+0	40	178		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6629	201	#line 6629 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	39	201	#line 39 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	39	201	#line 39 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	40	201		set __D0main, 1
+0	40	204	#line 40 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	41	204		tst 5, __zfmain, __D0main
+0	40	207	#line 40 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	41	207		brtst 4, __NXC_Label_657, __zfmain
+0	40	210	#line 40 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	41	210		getin __signed_stack_001main, __constVal1, 4
+0	40	214	#line 40 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	40	214	#line 40 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	41	214		set __D0main, 1
+0	40	217	#line 40 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	41	217		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	40	221	#line 40 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	41	221		mov __D0main, __zfmain
+0	41	223	#line 41 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	42	223		brtst 4, __NXC_Label_662, __zfmain
+0	42	226	#line 42 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	43	226	#pragma macro 7
+0	43	226		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6655	249	#line 6655 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	42	249	#line 42 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	43	249	#line 43 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	43	249	#line 43 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	44	249		getin __signed_stack_001main, __constVal2, 4
+0	43	253	#line 43 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	43	253	#line 43 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	44	253		set __D0main, 1
+0	43	256	#line 43 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	44	256		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	43	260	#line 43 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	44	260		mov __D0main, __zfmain
+0	44	262	#line 44 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	45	262		brtst 4, __NXC_Label_665, __zfmain
+0	45	265	#line 45 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	46	265	#pragma macro 7
+0	46	265		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6674	288	#line 6674 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	45	288	#line 45 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	46	288	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	46	288	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	288		getin __signed_stack_001main, __constVal1, 4
+0	46	292	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	46	292	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	292		set __D0main, 1
+0	46	295	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	295		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	46	299	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	299		mov __D0main, __zfmain
+0	46	301	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	301		brtst 4, __NXC_Label_667, __zfmain
+0	46	304	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	304		mov __signed_stack_001main, __D0main
+0	46	306	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	306		getin __signed_stack_002main, __constVal2, 4
+0	46	310	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	46	310	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	310		set __D0main, 1
+0	46	313	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	313		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	46	317	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	46	317	#line 46 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	47	317		and __D0main, __signed_stack_001main, __zfmain
+0	47	321	#line 47 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	48	321		tst 5, __zfmain, __D0main
+0	47	324	#line 47 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	48	324		brtst 4, __NXC_Label_668, __zfmain
+0	48	327	#line 48 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	49	327		jmp __NXC_Label_657
+0	48	329	#line 48 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	50	329	#line 50 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	50	329	#line 50 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	51	329		jmp __NXC_Label_656
+0	50	331	#line 50 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	50	331	#line 50 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	51	331	#line 51 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	52	331	#pragma macro 10
+0	52	331		neg __OnRev_Tmp, __constVal100
+0	52	334		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6724	357	#line 6724 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	51	357	#line 51 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	51	357	#line 51 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	52	357		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	51	360	#line 51 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	360	#line 7921 "NXCDefs.h"
+0	7922	360		wait 1000
+0	7921	362	#line 7921 "NXCDefs.h"
+0	52	362	#line 52 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	53	362	#line 53 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	54	362	#pragma macro 7
+0	54	362		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6741	385	#line 6741 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	53	385	#line 53 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	53	385	#line 53 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	53	385	#line 53 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	54	385	#pragma macro 10
+0	54	385		neg __OnRev_Tmp, __constVal100
+0	54	388		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6748	411	#line 6748 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	53	411	#line 53 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	53	411	#line 53 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	54	411		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	53	414	#line 53 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	414	#line 7921 "NXCDefs.h"
+0	7922	414		wait 1000
+0	7921	416	#line 7921 "NXCDefs.h"
+0	54	416	#line 54 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	54	416	#line 54 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	54	416	#line 54 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	55	416	#pragma macro 10
+0	55	416		neg __OnRev_Tmp, __constVal100
+0	55	419		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6765	442	#line 6765 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	54	442	#line 54 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	54	442	#line 54 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	55	442		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	54	445	#line 54 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	445	#line 7921 "NXCDefs.h"
+0	7922	445		wait 1000
+0	7921	447	#line 7921 "NXCDefs.h"
+0	55	447	#line 55 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	56	447	#line 56 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	57	447	#pragma macro 7
+0	57	447		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6778	470	#line 6778 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	56	470	#line 56 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	56	470	#line 56 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	57	470		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	56	473	#line 56 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	57	473	#line 57 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	58	473		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	475	#line 3758 "NXCDefs.h"
+0	3759	475		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	477	#line 3758 "NXCDefs.h"
+0	3758	477	#line 3758 "NXCDefs.h"
+0	3759	477		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	479	#line 3758 "NXCDefs.h"
+0	3759	479		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	482	#line 3758 "NXCDefs.h"
+0	3759	482		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	485	#line 3758 "NXCDefs.h"
+0	3759	485		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	488	#line 3758 "NXCDefs.h"
+0	3759	488		jmp __004__NXC_Label_37
+0	3758	490	#line 3758 "NXCDefs.h"
+0	3759	490		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	493	#line 3758 "NXCDefs.h"
+0	3759	493		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	495	#line 3663 "NXCDefs.h"
+0	3664	495		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	499	#line 3663 "NXCDefs.h"
+0	3759	499	#line 3759 "NXCDefs.h"
+0	3759	499	#line 3759 "NXCDefs.h"
+0	3760	499		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	501	#line 3759 "NXCDefs.h"
+0	3759	501	#line 3759 "NXCDefs.h"
+0	3760	501		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	504	#line 3759 "NXCDefs.h"
+0	3676	504	#line 3676 "NXCDefs.h"
+0	3677	504		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	508	#line 3676 "NXCDefs.h"
+0	3760	508	#line 3760 "NXCDefs.h"
+0	3760	508	#line 3760 "NXCDefs.h"
+0	3761	508		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	510	#line 3760 "NXCDefs.h"
+0	3694	510	#line 3694 "NXCDefs.h"
+0	3695	510	#pragma macro 4
+0	3695	510		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	512		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6871	514	#line 6871 "NXCDefs.h"
+0	3694	514	#line 3694 "NXCDefs.h"
+0	3761	514	#line 3761 "NXCDefs.h"
+0	57	514	#line 57 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	57	514	#line 57 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	58	514		set __D0main, 1
+0	58	517	#line 58 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	59	517		tst 5, __zfmain, __D0main
+0	58	520	#line 58 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	59	520		brtst 4, __NXC_Label_684, __zfmain
+0	58	523	#line 58 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	59	523		set __D0main, 100
+0	59	526	#line 59 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	60	526	#pragma macro 7
+0	60	526		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6889	549	#line 6889 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	59	549	#line 59 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	59	549	#line 59 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	60	549	#pragma macro 26
+0	60	549		acquire __RLSBmutex3
+0	60	550		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	60	552		set __RLSBytesCount3, 1
+0	60	555		wait 15
+0	60	557		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	60	559		index __D0main, __RLSReadBuf3, 65535
+0	60	563		release __RLSBmutex3
+0	6892	564	#line 6892 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	59	564	#line 59 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	60	564		mov __signed_stack_001main, __D0main
+0	59	566	#line 59 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	60	566		set __D0main, 10
+0	59	569	#line 59 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	60	569		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	59	573	#line 59 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	60	573		mov __D0main, __zfmain
+0	60	575	#line 60 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	61	575		brtst 4, __NXC_Label_691, __zfmain
+0	60	578	#line 60 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	61	578		set __D0main, 100
+0	61	581	#line 61 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	62	581	#pragma macro 7
+0	62	581		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6910	604	#line 6910 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	61	604	#line 61 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	62	604	#line 62 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	63	604	#pragma macro 7
+0	63	604		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6913	627	#line 6913 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	62	627	#line 62 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	62	627	#line 62 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	63	627		set __Wait_7qG2_ms_7qG2_000_inline_main, 1500
+0	62	630	#line 62 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	630	#line 7921 "NXCDefs.h"
+0	7922	630		wait 1500
+0	7921	632	#line 7921 "NXCDefs.h"
+0	63	632	#line 63 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	64	632	#line 64 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	65	632		jmp __NXC_Label_684
+0	64	634	#line 64 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	66	634	#line 66 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	66	634	#line 66 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	67	634		jmp __NXC_Label_683
+0	66	636	#line 66 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	66	636	#line 66 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	67	636		set __D0main, 100
+0	67	639	#line 67 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	68	639	#pragma macro 7
+0	68	639		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6939	662	#line 6939 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	67	662	#line 67 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	67	662	#line 67 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	68	662		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	67	665	#line 67 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	665	#line 7921 "NXCDefs.h"
+0	7922	665		wait 1000
+0	7921	667	#line 7921 "NXCDefs.h"
+0	68	667	#line 68 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	68	667	#line 68 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	69	667	#line 69 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	70	667	#pragma macro 10
+0	70	667		neg __OnRev_Tmp, __constVal50
+0	70	670		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6956	693	#line 6956 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	69	693	#line 69 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	69	693	#line 69 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	70	693		set __D0main, 100
+0	70	696	#line 70 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	71	696	#pragma macro 7
+0	71	696		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6963	719	#line 6963 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	70	719	#line 70 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	70	719	#line 70 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	71	719		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	70	722	#line 70 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	722	#line 7921 "NXCDefs.h"
+0	7922	722		wait 2000
+0	7921	724	#line 7921 "NXCDefs.h"
+0	72	724	#line 72 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	72	724	#line 72 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	73	724		set __D0main, 1
+0	73	727	#line 73 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	74	727		tst 5, __zfmain, __D0main
+0	73	730	#line 73 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	74	730		brtst 4, __NXC_Label_707, __zfmain
+0	73	733	#line 73 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	74	733		getin __signed_stack_001main, __constVal1, 4
+0	73	737	#line 73 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	73	737	#line 73 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	74	737		set __D0main, 1
+0	73	740	#line 73 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	74	740		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	73	744	#line 73 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	74	744		mov __D0main, __zfmain
+0	74	746	#line 74 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	75	746		brtst 4, __NXC_Label_712, __zfmain
+0	75	749	#line 75 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	76	749	#pragma macro 7
+0	76	749		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6999	772	#line 6999 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	75	772	#line 75 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	76	772	#line 76 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	76	772	#line 76 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	77	772		getin __signed_stack_001main, __constVal2, 4
+0	76	776	#line 76 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	76	776	#line 76 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	77	776		set __D0main, 1
+0	76	779	#line 76 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	77	779		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	76	783	#line 76 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	77	783		mov __D0main, __zfmain
+0	77	785	#line 77 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	78	785		brtst 4, __NXC_Label_715, __zfmain
+0	78	788	#line 78 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	79	788	#pragma macro 7
+0	79	788		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7018	811	#line 7018 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	78	811	#line 78 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	79	811	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	79	811	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	811		getin __signed_stack_001main, __constVal1, 4
+0	79	815	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	79	815	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	815		set __D0main, 1
+0	79	818	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	818		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	79	822	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	822		mov __D0main, __zfmain
+0	79	824	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	824		brtst 4, __NXC_Label_717, __zfmain
+0	79	827	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	827		mov __signed_stack_001main, __D0main
+0	79	829	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	829		getin __signed_stack_002main, __constVal2, 4
+0	79	833	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	79	833	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	833		set __D0main, 1
+0	79	836	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	836		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	79	840	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	79	840	#line 79 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	80	840		and __D0main, __signed_stack_001main, __zfmain
+0	80	844	#line 80 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	81	844		tst 5, __zfmain, __D0main
+0	80	847	#line 80 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	81	847		brtst 4, __NXC_Label_718, __zfmain
+0	81	850	#line 81 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	82	850		jmp __NXC_Label_707
+0	81	852	#line 81 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	83	852	#line 83 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	83	852	#line 83 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	84	852		jmp __NXC_Label_706
+0	83	854	#line 83 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	83	854	#line 83 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	84	854		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 1
+0	83	857	#line 83 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3842	857	#line 3842 "NXCDefs.h"
+0	3843	857	#pragma macro 6
+0	3843	857		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 0
+0	3843	861		setin __constVal128, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 1
+0	3843	865		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main
+0	3843	867		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7074	869	#line 7074 "NXCDefs.h"
+0	3842	869	#line 3842 "NXCDefs.h"
+0	84	869	#line 84 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	84	869	#line 84 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	85	869		set __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 2
+0	84	872	#line 84 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3842	872	#line 3842 "NXCDefs.h"
+0	3843	872	#pragma macro 6
+0	3843	872		setin __constVal17, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 0
+0	3843	876		setin __constVal128, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main, 1
+0	3843	880		mov __ResetSensorPort, __SetSensorColorNone_7qG2_port_7qG2_000_inline_main
+0	3843	882		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7084	884	#line 7084 "NXCDefs.h"
+0	3842	884	#line 3842 "NXCDefs.h"
+0	85	884	#line 85 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	85	884	#line 85 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	86	884		set __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	85	887	#line 85 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	85	887	#line 85 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3707	887	#line 3707 "NXCDefs.h"
+0	3708	887		setin __constVal1, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	3709	891		setin __constVal32, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	3710	895	#pragma macro 4
+0	3710	895		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	3710	897		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7106	899	#line 7106 "NXCDefs.h"
+0	3711	899	#line 3711 "NXCDefs.h"
+0	86	899	#line 86 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	86	899	#line 86 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	87	899	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	88	899	#pragma macro 10
+0	88	899		neg __OnRev_Tmp, __constVal100
+0	88	902		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7114	925	#line 7114 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	87	925	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	87	925	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	88	925		getin __signed_stack_001main, __constVal0, 4
+0	87	929	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	87	929	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	88	929		set __D0main, 0
+0	87	932	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	88	932		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	87	936	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	87	936	#line 87 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	88	936		not __D0main, __zfmain
+0	88	939	#line 88 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	89	939		tst 5, __zfmain, __D0main
+0	88	942	#line 88 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	89	942		brtst 4, __NXC_Label_728, __zfmain
+0	88	945	#line 88 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	88	945	#line 88 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	89	945		jmp __NXC_Label_727
+0	88	947	#line 88 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	88	947	#line 88 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	89	947		set __D0main, 100
+0	89	950	#line 89 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	90	950	#pragma macro 7
+0	90	950		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7147	973	#line 7147 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	89	973	#line 89 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	89	973	#line 89 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	90	973		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	89	976	#line 89 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	976	#line 7921 "NXCDefs.h"
+0	7922	976		wait 500
+0	7921	978	#line 7921 "NXCDefs.h"
+0	90	978	#line 90 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	91	978	#line 91 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	92	978	#pragma macro 7
+0	92	978		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7160	1001	#line 7160 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	91	1001	#line 91 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	91	1001	#line 91 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	92	1001		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
+0	91	1004	#line 91 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	1004	#line 7921 "NXCDefs.h"
+0	7922	1004		wait 3000
+0	7921	1006	#line 7921 "NXCDefs.h"
+0	92	1006	#line 92 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	92	1006	#line 92 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	93	1006		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	92	1009	#line 92 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3802	1009	#line 3802 "NXCDefs.h"
+0	3803	1009	#pragma macro 6
+0	3803	1009		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	3803	1013		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	3803	1017		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	3803	1019		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7179	1021	#line 7179 "NXCDefs.h"
+0	3802	1021	#line 3802 "NXCDefs.h"
+0	93	1021	#line 93 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	93	1021	#line 93 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	94	1021		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 2
+0	93	1024	#line 93 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3802	1024	#line 3802 "NXCDefs.h"
+0	3803	1024	#pragma macro 6
+0	3803	1024		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	3803	1028		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	3803	1032		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	3803	1034		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7189	1036	#line 7189 "NXCDefs.h"
+0	3802	1036	#line 3802 "NXCDefs.h"
+0	94	1036	#line 94 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	94	1036	#line 94 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	95	1036		set __D0main, 1
+0	95	1039	#line 95 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	96	1039		tst 5, __zfmain, __D0main
+0	95	1042	#line 95 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	96	1042		brtst 4, __NXC_Label_744, __zfmain
+0	95	1045	#line 95 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	96	1045		getin __signed_stack_001main, __constVal1, 4
+0	95	1049	#line 95 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	95	1049	#line 95 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	96	1049		set __D0main, 1
+0	95	1052	#line 95 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	96	1052		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	95	1056	#line 95 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	96	1056		mov __D0main, __zfmain
+0	96	1058	#line 96 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	97	1058		brtst 4, __NXC_Label_749, __zfmain
+0	97	1061	#line 97 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	98	1061	#pragma macro 7
+0	98	1061		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7216	1084	#line 7216 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	97	1084	#line 97 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	98	1084	#line 98 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	98	1084	#line 98 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	99	1084		getin __signed_stack_001main, __constVal2, 4
+0	98	1088	#line 98 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	98	1088	#line 98 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	99	1088		set __D0main, 1
+0	98	1091	#line 98 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	99	1091		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	98	1095	#line 98 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	99	1095		mov __D0main, __zfmain
+0	99	1097	#line 99 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	100	1097		brtst 4, __NXC_Label_752, __zfmain
+0	100	1100	#line 100 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	101	1100	#pragma macro 7
+0	101	1100		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7235	1123	#line 7235 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	100	1123	#line 100 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	101	1123	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	101	1123	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1123		getin __signed_stack_001main, __constVal1, 4
+0	101	1127	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	101	1127	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1127		set __D0main, 1
+0	101	1130	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1130		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	101	1134	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1134		mov __D0main, __zfmain
+0	101	1136	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1136		brtst 4, __NXC_Label_754, __zfmain
+0	101	1139	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1139		mov __signed_stack_001main, __D0main
+0	101	1141	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1141		getin __signed_stack_002main, __constVal2, 4
+0	101	1145	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	101	1145	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1145		set __D0main, 1
+0	101	1148	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1148		cmp 4, __zfmain, __signed_stack_002main, __D0main
+0	101	1152	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	101	1152	#line 101 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	102	1152		and __D0main, __signed_stack_001main, __zfmain
+0	102	1156	#line 102 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	103	1156		tst 5, __zfmain, __D0main
+0	102	1159	#line 102 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	103	1159		brtst 4, __NXC_Label_755, __zfmain
+0	102	1162	#line 102 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	103	1162	#line 103 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	104	1162	#pragma macro 10
+0	104	1162		neg __OnRev_Tmp, __constVal100
+0	104	1165		setout __OUT_BC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7276	1188	#line 7276 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	103	1188	#line 103 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	103	1188	#line 103 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	104	1188		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	103	1191	#line 103 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	1191	#line 7921 "NXCDefs.h"
+0	7922	1191		wait 2000
+0	7921	1193	#line 7921 "NXCDefs.h"
+0	104	1193	#line 104 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	105	1193	#line 105 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	106	1193		jmp __NXC_Label_744
+0	105	1195	#line 105 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	106	1195	#line 106 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	107	1195		set __D0main, 1
+0	107	1198	#line 107 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	108	1198		tst 5, __zfmain, __D0main
+0	107	1201	#line 107 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	108	1201		brtst 4, __NXC_Label_761, __zfmain
+0	107	1204	#line 107 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	108	1204		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	107	1207	#line 107 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	108	1207	#line 108 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	109	1207		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	1209	#line 3758 "NXCDefs.h"
+0	3759	1209		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	1211	#line 3758 "NXCDefs.h"
+0	3758	1211	#line 3758 "NXCDefs.h"
+0	3759	1211		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	1213	#line 3758 "NXCDefs.h"
+0	3759	1213		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	1216	#line 3758 "NXCDefs.h"
+0	3759	1216		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	1219	#line 3758 "NXCDefs.h"
+0	3759	1219		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	1222	#line 3758 "NXCDefs.h"
+0	3759	1222		jmp __005__NXC_Label_37
+0	3758	1224	#line 3758 "NXCDefs.h"
+0	3759	1224		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	1227	#line 3758 "NXCDefs.h"
+0	3759	1227		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	1229	#line 3663 "NXCDefs.h"
+0	3664	1229		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	1233	#line 3663 "NXCDefs.h"
+0	3759	1233	#line 3759 "NXCDefs.h"
+0	3759	1233	#line 3759 "NXCDefs.h"
+0	3760	1233		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	1235	#line 3759 "NXCDefs.h"
+0	3759	1235	#line 3759 "NXCDefs.h"
+0	3760	1235		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	1238	#line 3759 "NXCDefs.h"
+0	3676	1238	#line 3676 "NXCDefs.h"
+0	3677	1238		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	1242	#line 3676 "NXCDefs.h"
+0	3760	1242	#line 3760 "NXCDefs.h"
+0	3760	1242	#line 3760 "NXCDefs.h"
+0	3761	1242		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	1244	#line 3760 "NXCDefs.h"
+0	3694	1244	#line 3694 "NXCDefs.h"
+0	3695	1244	#pragma macro 4
+0	3695	1244		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	1246		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7363	1248	#line 7363 "NXCDefs.h"
+0	3694	1248	#line 3694 "NXCDefs.h"
+0	3761	1248	#line 3761 "NXCDefs.h"
+0	108	1248	#line 108 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	108	1248	#line 108 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	109	1248		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	108	1251	#line 108 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	109	1251	#line 109 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	110	1251		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	1253	#line 3729 "NXCDefs.h"
+0	3730	1253		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	1255	#line 3729 "NXCDefs.h"
+0	3729	1255	#line 3729 "NXCDefs.h"
+0	3730	1255		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	1257	#line 3729 "NXCDefs.h"
+0	3730	1257		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	1260	#line 3729 "NXCDefs.h"
+0	3730	1260		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	1263	#line 3729 "NXCDefs.h"
+0	3730	1263		set __D0SetSensorLight_inline_main, 5
+0	3729	1266	#line 3729 "NXCDefs.h"
+0	3730	1266		jmp __001__NXC_Label_5
+0	3729	1268	#line 3729 "NXCDefs.h"
+0	3730	1268		set __D0SetSensorLight_inline_main, 6
+0	3729	1271	#line 3729 "NXCDefs.h"
+0	3730	1271		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	1273	#line 3663 "NXCDefs.h"
+0	3664	1273		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	1277	#line 3663 "NXCDefs.h"
+0	3730	1277	#line 3730 "NXCDefs.h"
+0	3730	1277	#line 3730 "NXCDefs.h"
+0	3731	1277		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	1279	#line 3730 "NXCDefs.h"
+0	3730	1279	#line 3730 "NXCDefs.h"
+0	3731	1279		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	1282	#line 3730 "NXCDefs.h"
+0	3676	1282	#line 3676 "NXCDefs.h"
+0	3677	1282		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	1286	#line 3676 "NXCDefs.h"
+0	3731	1286	#line 3731 "NXCDefs.h"
+0	3731	1286	#line 3731 "NXCDefs.h"
+0	3731	1286	#line 3731 "NXCDefs.h"
+0	3694	1286	#line 3694 "NXCDefs.h"
+0	3695	1286	#pragma macro 4
+0	3695	1286		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	1288		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7458	1290	#line 7458 "NXCDefs.h"
+0	3694	1290	#line 3694 "NXCDefs.h"
+0	3732	1290	#line 3732 "NXCDefs.h"
+0	109	1290	#line 109 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	109	1290	#line 109 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	110	1290		set __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 1
+0	109	1293	#line 109 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3812	1293	#line 3812 "NXCDefs.h"
+0	3813	1293	#pragma macro 6
+0	3813	1293		setin __constVal14, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 0
+0	3813	1297		setin __constVal128, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main, 1
+0	3813	1301		mov __ResetSensorPort, __SetSensorColorRed_7qG2_port_7qG2_000_inline_main
+0	3813	1303		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7473	1305	#line 7473 "NXCDefs.h"
+0	3812	1305	#line 3812 "NXCDefs.h"
+0	111	1305	#line 111 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	111	1305	#line 111 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	112	1305		set __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	111	1308	#line 111 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	111	1308	#line 111 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	112	1308		set __SetSensorMode_7qG2_mode_7qG2_000_inline_main, 0
+0	111	1311	#line 111 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	3676	1311	#line 3676 "NXCDefs.h"
+0	3677	1311		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_main, 1
+0	3676	1315	#line 3676 "NXCDefs.h"
+0	112	1315	#line 112 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	112	1315	#line 112 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	113	1315		getin __signed_stack_001main, __constVal0, 4
+0	112	1319	#line 112 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	113	1319	#line 113 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	114	1319		mov __D0main, __main_7qG2_silver_7qG2_000
+0	113	1321	#line 113 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	114	1321		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	113	1325	#line 113 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	114	1325		mov __D0main, __zfmain
+0	114	1327	#line 114 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	115	1327		brtst 4, __NXC_Label_776, __zfmain
+0	115	1330	#line 115 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	116	1330	#pragma macro 7
+0	116	1330		setout __constVal2, 0, __constVal8
+0	7515	1335	#line 7515 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	115	1335	#line 115 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	116	1335	#line 116 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	117	1335	#pragma macro 7
+0	117	1335		setout __constVal1, 0, __constVal8
+0	7518	1340	#line 7518 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	116	1340	#line 116 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	117	1340	#line 117 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	118	1340		mov __main_7qG2_leftpower_7qG2_000, __main_7qG2_power_7qG2_000
+0	117	1342	#line 117 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	117	1342	#line 117 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	118	1342	#line 118 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1342		mov __main_7qG2_rightpower_7qG2_000, __main_7qG2_power_7qG2_000
+0	118	1344	#line 118 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	118	1344	#line 118 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	118	1344	#line 118 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1344		getin __signed_stack_001main, __constVal0, 4
+0	118	1348	#line 118 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1348	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1348	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1348		sub __main_7qG2_error_7qG2_000, __signed_stack_001main, __main_7qG2_midpoint_7qG2_000
+0	119	1352	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1352	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1352	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1352	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1352		mov __signed_stack_001main, __main_7qG2_error_7qG2_000
+0	119	1354	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1354	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1354		set __D0main, 0
+0	119	1357	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1357		cmp 3, __zfmain, __signed_stack_001main, __D0main
+0	119	1361	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1361		mov __D0main, __zfmain
+0	119	1363	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1363		brtst 4, __NXC_Label_785, __zfmain
+0	119	1366	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1366		mov __signed_stack_001main, __main_7qG2_power_7qG2_000
+0	119	1368	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1368	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1368		mov __signed_stack_002main, __main_7qG2_power_7qG2_000
+0	119	1370	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1370	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1370		mov __D0main, __main_7qG2_error_7qG2_000
+0	119	1372	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1372		abs __D0main, __D0main
+0	119	1375	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1375		mul __signed_stack_002main, __signed_stack_002main, __D0main
+0	119	1379	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1379	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1379	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1379		div __signed_stack_002main, __signed_stack_002main, __main_7qG2_range_7qG2_000
+0	119	1383	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1383	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	119	1383	#line 119 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1383		mul __D0main, __signed_stack_002main, __main_7qG2_P_7qG2_000
+0	120	1387	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1387		sub __main_7qG2_rightpower_7qG2_000, __signed_stack_001main, __D0main
+0	120	1391	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1391	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1391	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1391	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1391		mov __signed_stack_001main, __main_7qG2_error_7qG2_000
+0	120	1393	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1393	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1393		set __D0main, 0
+0	120	1396	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1396		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	120	1400	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1400		mov __D0main, __zfmain
+0	120	1402	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1402		brtst 4, __NXC_Label_794, __zfmain
+0	120	1405	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1405		mov __signed_stack_001main, __main_7qG2_power_7qG2_000
+0	120	1407	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1407	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1407		mov __signed_stack_002main, __main_7qG2_power_7qG2_000
+0	120	1409	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1409	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1409		mov __D0main, __main_7qG2_error_7qG2_000
+0	120	1411	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1411		abs __D0main, __D0main
+0	120	1414	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1414		mul __signed_stack_002main, __signed_stack_002main, __D0main
+0	120	1418	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1418	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1418	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1418		div __signed_stack_002main, __signed_stack_002main, __main_7qG2_range_7qG2_000
+0	120	1422	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1422	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	120	1422	#line 120 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1422		mul __D0main, __signed_stack_002main, __main_7qG2_P_7qG2_000
+0	121	1426	#line 121 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	122	1426		sub __main_7qG2_leftpower_7qG2_000, __signed_stack_001main, __D0main
+0	121	1430	#line 121 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1430	#line 121 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1430	#line 121 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	121	1430	#line 121 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	122	1430		mov __D0main, __main_7qG2_leftpower_7qG2_000
+0	122	1432	#line 122 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	123	1432	#pragma macro 7
+0	123	1432		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7659	1455	#line 7659 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	122	1455	#line 122 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	122	1455	#line 122 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	123	1455		mov __D0main, __main_7qG2_rightpower_7qG2_000
+0	123	1457	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1457	#pragma macro 7
+0	124	1457		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7666	1480	#line 7666 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	123	1480	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	123	1480	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1480		getout __signed_stack_001main, __constVal1, 14
+0	123	1484	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	123	1484	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1484		getout __D0main, __constVal2, 14
+0	123	1488	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1488		add __D0main, __signed_stack_001main, __D0main
+0	123	1492	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1492		abs __signed_stack_001main, __D0main
+0	123	1495	#line 123 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1495	#line 124 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1495	#line 124 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1495		div __main_7qG2_degrees_7qG2_000, __signed_stack_001main, __constVal2
+0	124	1499	#line 124 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1499	#line 124 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1499	#line 124 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	124	1499	#line 124 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1499	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1499	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	126	1499		div __main_7qG2_rotations_7qG2_000, __main_7qG2_degrees_7qG2_000, __constVal360
+0	125	1503	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1503	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1503	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1503	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1503	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	125	1503	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	126	1503		mul __signed_stack_001main, __main_7qG2_rotations_7qG2_000, __main_7qG2_wheeldiameter_7qG2_000
+0	125	1507	#line 125 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	127	1507	#line 127 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	127	1507	#line 127 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	128	1507		mul __main_7qG2_distance_7qG2_000, __signed_stack_001main, __constValf3P1416
+0	127	1511	#line 127 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	127	1511	#line 127 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	128	1511	#line 128 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	129	1511		jmp __NXC_Label_813
+0	128	1513	#line 128 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	129	1513		getin __signed_stack_001main, __constVal0, 4
+0	128	1517	#line 128 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	129	1517	#line 129 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	130	1517		mov __D0main, __main_7qG2_range2_7qG2_000
+0	129	1519	#line 129 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	130	1519		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	129	1523	#line 129 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	130	1523		mov __D0main, __zfmain
+0	130	1525	#line 130 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	131	1525		brtst 4, __NXC_Label_816, __zfmain
+0	131	1528	#line 131 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	132	1528		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	131	1532	#line 131 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	131	1532	#line 131 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	132	1532		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	131	1534	#line 131 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	132	1534	#line 132 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	133	1534		set __D0main, 2
+0	132	1537	#line 132 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	133	1537		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	132	1541	#line 132 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	133	1541		mov __D0main, __zfmain
+0	133	1543	#line 133 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	134	1543		brtst 4, __NXC_Label_819, __zfmain
+0	134	1546	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	135	1546	#pragma macro 7
+0	135	1546		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7758	1569	#line 7758 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	134	1569	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	134	1569	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	135	1569		getin __signed_stack_001main, __constVal0, 4
+0	134	1573	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	134	1573	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	135	1573		mov __D0main, __main_7qG2_black_7qG2_000
+0	134	1575	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	135	1575		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	134	1579	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	134	1579	#line 134 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	135	1579		not __D0main, __zfmain
+0	135	1582	#line 135 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	136	1582		tst 5, __zfmain, __D0main
+0	135	1585	#line 135 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	136	1585		brtst 4, __NXC_Label_821, __zfmain
+0	135	1588	#line 135 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	135	1588	#line 135 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	136	1588		jmp __NXC_Label_820
+0	135	1590	#line 135 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	135	1590	#line 135 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	136	1590		set __D0main, 70
+0	136	1593	#line 136 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	137	1593	#pragma macro 7
+0	137	1593		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7791	1616	#line 7791 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	136	1616	#line 136 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	136	1616	#line 136 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	137	1616		set __Wait_7qG2_ms_7qG2_000_inline_main, 260
+0	136	1619	#line 136 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	7921	1619	#line 7921 "NXCDefs.h"
+0	7922	1619		wait 260
+0	7921	1621	#line 7921 "NXCDefs.h"
+0	137	1621	#line 137 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	138	1621	#line 138 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	139	1621		mov __main_7qG2_leftpower_7qG2_000, __main_7qG2_power_7qG2_000
+0	138	1623	#line 138 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	138	1623	#line 138 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	139	1623	#line 139 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1623		mov __main_7qG2_rightpower_7qG2_000, __main_7qG2_power_7qG2_000
+0	139	1625	#line 139 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	139	1625	#line 139 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	139	1625	#line 139 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1625		getin __signed_stack_001main, __constVal0, 4
+0	139	1629	#line 139 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1629	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1629	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1629		sub __main_7qG2_error_7qG2_000, __signed_stack_001main, __main_7qG2_midpoint_7qG2_000
+0	140	1633	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1633	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1633	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1633	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1633		mov __signed_stack_001main, __main_7qG2_error_7qG2_000
+0	140	1635	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1635	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1635		set __D0main, 0
+0	140	1638	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1638		cmp 3, __zfmain, __signed_stack_001main, __D0main
+0	140	1642	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1642		mov __D0main, __zfmain
+0	140	1644	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1644		brtst 4, __NXC_Label_838, __zfmain
+0	140	1647	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1647		mov __signed_stack_001main, __main_7qG2_power_7qG2_000
+0	140	1649	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1649	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1649		mov __signed_stack_002main, __main_7qG2_power_7qG2_000
+0	140	1651	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1651	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1651		mov __D0main, __main_7qG2_error_7qG2_000
+0	140	1653	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1653		abs __D0main, __D0main
+0	140	1656	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1656		mul __signed_stack_002main, __signed_stack_002main, __D0main
+0	140	1660	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1660	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1660	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1660		div __signed_stack_002main, __signed_stack_002main, __main_7qG2_range_7qG2_000
+0	140	1664	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1664	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	140	1664	#line 140 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1664		mul __D0main, __signed_stack_002main, __main_7qG2_P_7qG2_000
+0	141	1668	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1668		sub __main_7qG2_rightpower_7qG2_000, __signed_stack_001main, __D0main
+0	141	1672	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1672	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1672	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1672	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1672		mov __signed_stack_001main, __main_7qG2_error_7qG2_000
+0	141	1674	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1674	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1674		set __D0main, 0
+0	141	1677	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1677		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	141	1681	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1681		mov __D0main, __zfmain
+0	141	1683	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1683		brtst 4, __NXC_Label_847, __zfmain
+0	141	1686	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1686		mov __signed_stack_001main, __main_7qG2_power_7qG2_000
+0	141	1688	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1688	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1688		mov __signed_stack_002main, __main_7qG2_power_7qG2_000
+0	141	1690	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1690	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1690		mov __D0main, __main_7qG2_error_7qG2_000
+0	141	1692	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1692		abs __D0main, __D0main
+0	141	1695	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1695		mul __signed_stack_002main, __signed_stack_002main, __D0main
+0	141	1699	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1699	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1699	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1699		div __signed_stack_002main, __signed_stack_002main, __main_7qG2_range_7qG2_000
+0	141	1703	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1703	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	141	1703	#line 141 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1703		mul __D0main, __signed_stack_002main, __main_7qG2_P_7qG2_000
+0	142	1707	#line 142 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	143	1707		sub __main_7qG2_leftpower_7qG2_000, __signed_stack_001main, __D0main
+0	142	1711	#line 142 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1711	#line 142 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1711	#line 142 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	142	1711	#line 142 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	143	1711		mov __D0main, __main_7qG2_leftpower_7qG2_000
+0	143	1713	#line 143 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	144	1713	#pragma macro 7
+0	144	1713		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7942	1736	#line 7942 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	143	1736	#line 143 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	143	1736	#line 143 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	144	1736		mov __D0main, __main_7qG2_rightpower_7qG2_000
+0	144	1738	#line 144 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	145	1738	#pragma macro 7
+0	145	1738		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7949	1761	#line 7949 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	144	1761	#line 144 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	147	1761	#line 147 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	148	1761		jmp __NXC_Label_858
+0	148	1763	#line 148 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	149	1763		jmp __NXC_Label_761
+0	148	1765	#line 148 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	151	1765	#line 151 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	152	1765	#line 152 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	152	1765	#line 152 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	153	1765	#line 153 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	154	1765		jmp __NXC_Label_760
+0	153	1767	#line 153 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	154	1767	#line 154 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	155	1767	#line 155 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	156	1767		jmp __NXC_Label_743
+0	155	1769	#line 155 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+0	156	1769		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5784	0	#pragma macro 25
+2	5784	0		acquire __CLSWMutex3
+2	5784	1		set __CLSWArgs3.Port, 3
+2	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	5784	8		syscall 21, __CLSWArgs3
+2	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+2	5784	13		release __CLSWMutex3
+2	5784	14	#line 5784 "NXTDefs.h"
+2	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+2	5788	24		set __RLSBIterations3, 4
+2	5790	27	#pragma macro 23
+2	5790	27		acquire __CLSCSMutex3
+2	5790	28		set __CLSCSArgs3.Port, 3
+2	5790	31		syscall 23, __CLSCSArgs3
+2	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+2	5790	38		release __CLSCSMutex3
+2	5790	39	#line 5790 "NXTDefs.h"
+2	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+2	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+2	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	5796	52		wait 15
+2	5797	54		jmp __RLSBDoCheckStatus3
+2	5800	56	#pragma macro 25
+2	5800	56		acquire __CLSRMutex3
+2	5800	57		set __CLSRArgs3.Port, 3
+2	5800	60		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	5800	62		syscall 22, __CLSRArgs3
+2	5800	65		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	5800	67		mov __RLSBResult3, __CLSRArgs3.Result
+2	5800	69		release __CLSRMutex3
+2	5800	70	#line 5800 "NXTDefs.h"
+2	5801	70		brtst 5, __RLSBError3, __RLSBResult3
+2	5802	73		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	5803	75		jmp __RLSBDone3
+2	5805	77		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	5807	79		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	5809	82		subret ____ReadLSBytes3_return
+3	8048	0		arrinit __RLSOutput, __constVal0, __constVal1
+3	8049	4		set __RLSByteCount, 0
+3	8051	7		set __FReadArgs.Length, 1
+3	8052	10		mov __RLSBuffer, __RLSOutput
+3	8053	12		syscall 3, __FReadArgs
+3	8054	15		mov __RLSReturn, __FReadArgs.Result
+3	8055	17		brtst 5, __RLSStringDone, __RLSReturn
+3	8056	20		index __FReadTmpByte, __FReadArgs.Buffer, 65535
+3	8057	24		brcmp 4, __RLSStringDone, __FReadTmpByte, __constVal10
+3	8058	28		brcmp 4, __RLSStringSkip, __FReadTmpByte, __constVal13
+3	8059	32		strcat __RLSOutput, __RLSBuffer, __FReadArgs.Buffer
+3	8060	37		add __RLSByteCount, __RLSByteCount, __constVal1
+3	8061	41		brcmp 3, __RLSStringDone, __RLSByteCount, __RLSMaxBytes
+3	8063	45		jmp __RLSStringLoop
+3	8065	47		subret __RLSReturnAddress
+4	162	0	#line 162 "C:\Users\Joy\AppData\Local\Temp\temp.nxc"
+4	163	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Joy\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	1772	NXTDefs.h
+2	__ReadLSBytes3	1785	NXTDefs.h
+3	__readStringLine	1869	NXTDefs.h
+4	__initialize_global_data	1918	C:\Users\Joy\AppData\Local\Temp\temp.nxc
